@@ -1,0 +1,66 @@
+
+a{
+    color: #9E005D;
+}
+a:hover{
+    color:  #870250;
+}
+.login-wrap{
+    background: url(../../assets/img/login-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:82vh;
+}
+.login-wrap .logo img{}
+
+.btn-primary {
+    font-weight: 600;
+    color: #fff;
+    background-color:#9E005D;
+    border-color: #9E005D;
+}
+.btn-primary:hover {
+    background-color: #870250;
+    border-color:  #870250;
+  }
+
+  .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active {
+    color: #fff;
+    background-color: #870250;
+    border-color: #870250;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+.btn-primary:focus, .btn-primary.focus {
+  color: #fff;
+  background-color: #870250;
+  border-color: #870250;
+  box-shadow:none;
+}
+.btn-primary-dark{
+  background-color: #709680;
+  border-color:#709680;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #fff;
+  background-color:#9E005D;
+  border-color: #9E005D;
+}
+
+
+
+@media(max-width:960px){
+	
+}
+@media only screen and (max-device-width: 960px) 
+                   and (orientation: landscape) {
+    .login-wrap{
+        height:100%;
+    }
+    .login-wrap .bg-white{ margin:20px 0px;}
+
+}

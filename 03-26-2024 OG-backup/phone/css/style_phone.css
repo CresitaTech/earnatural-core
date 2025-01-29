@@ -1,0 +1,747 @@
+#page{
+   width:90%;
+}
+#u31363-11 {
+    position: relative;
+    top: -7px;
+}
+
+#u31323 {
+   width: 200px !important;
+   margin-left: 10px !important;
+}
+#u32950-64{
+   margin-top:0px;
+}
+#pPaymentform-phone{
+   z-index: 87;
+    width: 0.01px;
+    margin-left: 3px;
+    margin-top: 33px;
+    margin-bottom: 50px;
+}
+#Paymentform-phone{
+   position: relative;
+   margin-right: -10000px;
+   width: 22px;
+}
+#Paymentform{
+   z-index: 177;
+    width: 341px;
+    min-height: 28px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #9E005D;
+    background-color: #9E005D;
+    border-radius: 10px 10px 0px 0px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 24px;
+    line-height: 29px;
+    font-family: source-sans-pro, sans-serif;
+    font-weight: 600;
+    margin-bottom: -2px;
+    position: relative;
+    margin-right: -10000px;
+    margin-top: -2px;
+    left: 17px;
+}
+.version-no{
+    width: 100%;
+    text-align: center;
+}
+
+.logo{  position: relative; width:93%; margin:10px auto 5px;}
+.logo img{max-width:250px;}
+.logo span{
+    color: #534741;
+    text-align: right;
+    font-size: 9px;
+    line-height: 11px;
+    position: absolute;
+    bottom:10px; right:0px;
+    width:100px;
+    
+}
+
+.header-toptext p{
+   color: #545454;
+   text-align: left;
+   font-size: 9px;
+   line-height: 11px;
+   padding:0px;
+   margin:0px;
+   text-align: center;
+}
+
+.form{
+   width:100%; 
+   margin:20px auto !important;
+   border: 1px solid #ced4da;
+   border-radius: 0.5rem;
+}
+.header-checkout{
+   background-color: #9E005D; 
+   border-radius: 0.5rem 0.5rem 0px 0px;
+   padding:10px 0px;
+   text-align: center;
+   font-size:1.5rem;
+   color:#fff; 
+   font-weight: bold;  
+}
+.checkout-body{
+   padding:0px 15px;
+}
+
+
+
+.city, .state, .zipcode{
+   width:100%;
+}
+.alert-secondary{
+    color: #383d41;
+    background-color: #e2e3e5;
+    border-color: #d6d8db;
+}
+.totalAmount-text{
+   text-align:right;
+   font-size:1rem;
+}
+.totalAmount-text strong{
+   float:right;
+   font-weight:bold;
+}
+
+.image-cropper {
+    width: 30px;
+    height: 30px;
+	background-color: blanchedalmond;
+    border-radius: 50%;
+	font-weight: bold;
+	padding: 5px;
+}
+
+
+#loader {
+position : fixed;
+z-index: 600;
+background-image : url('../../images/loader.gif');
+background-color:#666;
+opacity : 0.4;
+background-repeat : no-repeat;
+background-position : center;
+left : 0;
+bottom : 0;
+right : 0;
+top : 0;
+  }
+  
+.loader{
+   display:none;
+}
+@keyframes spin {
+   0% { transform: rotate(0deg); }
+   100% { transform: rotate(360deg); }
+ }
+
+ .parsley-custom-error-message{
+   color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    position: relative;
+    padding: .2rem .5rem;
+    margin-top: 0.5rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.card-number-sec #parsley-id-5{position: relative; width:320px;}
+.cvv-expirydate-errorMessage{ position: relative;}
+.cvv-expirydate-errorMessage #parsley-id-7{position: relative; width:158px;}
+.cvv-expirydate-errorMessage #parsley-id-9{    
+   width: 160px;
+   top: -47px;
+   left: 108px;
+   position: relative;
+}
+
+  .card-number-sec{ position: relative; width:100%; margin-bottom:4px;}
+  .card-number-sec #validCard, .card-number-sec #notvalidCard{ 
+     position: relative; 
+     top: 6px;  
+   }
+  .alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.alert {
+    position: relative;
+    padding:.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+      #provide-another-address{
+         display:none;
+      }
+      button {
+         display: block;
+      }
+
+      button:hover {
+         cursor: pointer;
+      }
+
+      /* The Modal (background) */
+      .modal {
+         display: none;
+         /* Hidden by default */
+         position: fixed;
+         /* Stay in place */
+         z-index: 500;
+         /* Sit on top */
+         padding-top:0px;
+         /* Location of the box */
+         left: 0;
+         top:0px;
+         width: 100%;
+         /* Full width */
+         height: 100%;
+         /* Full height */
+         overflow: visible;
+         /* Enable scroll if needed */
+         background-color: rgb(0, 0, 0);
+         /* Fallback color */
+         background-color: rgba(0, 0, 0, 0.4);
+         /* Black w/ opacity */
+
+         
+      }
+      .modal_inside_checkout{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100%;
+      } 
+        .modal-dialog{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100%;
+      } 
+
+      /* Modal Content */
+      .modal-content {
+         background-color: #fefefe;
+         margin: 0px auto;
+         padding:0px 15px 5px;
+         border: 1px solid #888;
+         width:370px;
+         /* min-height: 690px;
+         height: 690px; */
+         overflow: visible;
+         overflow-y: auto;
+         min-height: 540px;
+
+      }
+      .form-scroll{
+         /* height:530px;
+         overflow-y: auto; */
+      }
+
+      
+      #creditCardServiceMessage .modal-content {
+         background-color: #fefefe;
+         margin: 0px auto;
+         padding: 10px 20px;
+         border: 1px solid #888;
+         width: 300px;
+         min-height: 145px;
+         overflow: visible;
+         overflow-y: visible;
+         text-align:center;
+      }
+      #creditCardServiceErrorMessage .modal-content {
+         background-color: #fefefe;
+         margin: 0px auto;
+         padding: 10px 20px;
+         border: 1px solid #888;
+         width: 250px;
+         min-height: 145px;
+         overflow: visible;
+         overflow-y: visible;
+         text-align:center;
+      }
+      #creditCardServiceErrorMessage .modal-content h4{
+         font-size:1.2rem; margin:30px 0 10px; font-weight:bold;
+      }
+      h4#creditCardStatus{ font-size:1.2rem; margin:30px 0 10px; font-weight:bold;}
+
+      .product-price {
+         /* margin-top: 30px; */
+      }
+
+      .product-price .price {
+         float: left;
+         width: 100px;
+         color: #000;
+		 position: relative;
+		 top: -4px;
+      }
+
+      .product-price .qty {
+         float: right;
+         width: 100;
+         color: #000;
+         margin-top: -10px;
+      }
+
+.discountcode{
+    margin-top:5px;
+}
+.discountcode{
+    border:1px solid #e1e1e1;
+    background:#f7f7f7;
+    padding:5px 10px;
+}
+.discountcode legend{
+    color: #000;
+    font-weight: 600;
+    font-size:11px;
+    position: relative;
+    width: 99%;
+    text-align: center;
+    margin: 0px auto;
+}
+.discountcode .discount-text{
+    font-size:11px;
+    color: #696969;
+    width: 90%;
+    text-align: center;
+    margin: 0px auto;
+    line-height: 15px;
+    margin-top:5px;
+}
+.discountcode .form-control {
+	 padding: 4px;
+}
+#pu31363-14{
+	margin-top:5px;
+}
+
+
+
+
+      .product-price .qty .form-control {
+         display: inline-block;
+         width: auto;
+		 padding: 4px;
+      }
+
+      .checkout-btn{
+        margin-top:10px;
+     }
+
+     .checkout-btn .btn{
+        display: block;
+        text-align: center;
+       
+        font-style: initial;
+        color:#fff ;
+        text-decoration: none;
+     }
+     .checkout-btn .btn-primary{
+       margin:0px !important;
+   }
+     .amazon-btn{
+       margin-top:5px;
+    }
+    .amazon-btn a{
+       display: block;
+       text-align: center;
+       width: 100%;
+       font-style: initial;
+       margin-top:12px;
+       text-decoration: none;
+       color: #fff;
+       
+    }
+    .amazon-btn .or-line{
+        border-bottom:1px dashed #535353;
+        position: relative;
+        text-align: center;
+        height:8px;
+        position: relative;
+    }
+    .amazon-btn .or-line span{
+       background:#fff;
+       padding:5px;
+       color:#535353;
+       font-size:12px;
+       width: 32px;
+       margin: 0px auto;
+    }
+
+      .form-group {
+         width: 100%;
+         margin-bottom: 10px;
+      }
+
+ 
+      .row,
+      .col{
+         width: 100%;
+      }
+
+      .col-6 {
+         width: 48%;
+      }
+
+      .col-8 {
+         width: 70%;
+      }
+
+      .col-4 {
+         width: 135px;
+      }
+      .w-60 {
+         width: 60px;
+        
+      }
+      .w-20 {
+         width: 20px;
+         
+      }
+      .w-20 img{ margin-left:6px;}
+
+      .w-45 {
+         width: 45px;
+        
+      }
+      .w-45 .form-control {
+         text-align: center;
+         width: 35px !important;
+      }
+
+      .w-67 {
+         width: 67px;
+        
+      }
+
+      .w-67 .form-control {
+         text-align: center;
+         width: 57px !important;
+      }
+
+      .w-170{
+         width:170px;
+      }
+      .form .btn-primary{
+         margin-bottom:0px;
+      }
+
+      .form .btn-primary{
+         color:#fff;
+         width:100%;
+         text-transform: uppercase;
+         font-weight: bold;
+         font-size: 1rem;
+      }
+      .btn-warning {
+        color: #fff;
+        background-color: #ffb607;
+        border-color: #ffb607;
+        padding:8px 0px;
+        display: inline-block;
+       
+        border-radius: 2px;
+      }
+     .btn-warning:hover{
+        background-color: #d19114;
+      }
+      .btn-warning span{ 
+          color: #000;
+          font-weight: 700;
+        }  
+      
+      .form a.close
+      { 
+         color:#fff;
+         display: block;
+         font-size: 1rem;
+         text-transform: uppercase;
+         font-weight: bold;
+         text-align: center;
+         text-decoration: none;
+      
+      }
+      
+
+      .row .col input.form-control,
+      .city input.form-control,
+      .zipcode input.form-control,
+      .card-number-sec input.form-control{
+         width: calc(100% - 8px);
+      }
+
+
+      
+      .w-70 {
+         width: 70px;
+        
+      }
+
+      .w-70 .form-control {
+         text-align: center;
+         width: 60px;
+      }
+
+      .w-90 {
+         width: 90px;
+        
+      }
+      .w-90 .form-control {
+         /* text-align: center; */
+         width: 80px;
+      }
+
+      .w-180{ width:180px;}
+
+      .ExpiryDate{
+         width: 90px;
+        
+      }
+      /* .ExpiryDate .form-control {
+         width: 57px !important;
+      } */
+
+      .float-L {
+         float: left;
+      }
+
+      .float-R {
+         float: right;
+      }
+      .text-center{
+         text-align: center;
+      }
+
+      .m-5 {
+         margin-left: 5px;
+         margin-right: 5px;
+      }
+
+      .mB-30 {
+         margin-bottom: 30px;
+      }
+     
+      .mb-0{
+         margin-bottom:0px;
+      }
+
+      .mR-50 {
+         margin-right: 50px;
+      }
+
+      sup {
+         color: #f00;
+      }
+
+      .clear {
+         clear: both;
+      }
+
+      .form-control {
+         display: block;
+         width: 100%;
+         padding:8px 4px;
+         font-size: .9rem;
+         line-height: 1;
+         color: #495057;
+         background-color: #fff;
+         background-clip: padding-box;
+         border: 1px solid #ced4da;
+         border-radius: 0.25rem;
+         transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      }
+
+      .hyphen {
+         width: 15px;
+         text-align: center;
+         line-height: 24px;
+         float: left;
+      }
+      .hyphen-10 {
+         width: 10.5px;
+         text-align: center;
+         line-height: 24px;
+         float: left;
+      }
+      .hyphen-22 {
+         width: 22px;
+         text-align: center;
+         line-height: 24px;
+         float: left;
+      }
+
+      .label {
+         font-weight: 700;
+         margin-bottom: 1px;
+         width: 100%;
+         font-size: 0.8rem;
+      }
+
+      
+
+      .heading {
+         font-size: 1rem;
+         margin-top: 15px;
+         margin-bottom: 5px;
+         font-weight: 700;
+         text-transform: capitalize;
+         position: relative;
+      }  
+      .header-sec strong{
+         /* float:right; */
+         color:#a4a4a4;
+         font-size: 0.9rem;
+        
+      }
+      .header-sec strong:first-child{
+         margin-right:20px;
+         /* position: relative;
+         right:2px; */
+		     color: #029048;
+      }
+      .header-sec strong:last-child{
+         /* position: absolute;
+         left: 80px; */
+		 color: #9E005D;
+		 float:right;
+      }
+      .heading strong span{
+         /* color:#000; */
+      }
+      .heading strong img{
+         position: relative;
+         top: 4px;
+      }
+      /* .address .city{width: 135px;}
+      .address .city input{width: 125px;} */
+
+      /* .address .state{width: 135px;}
+      .address .state select {
+         margin:0px;
+         padding-right:0px;
+         width: 135px;
+      }
+      .address .zipcode{width: 62px;}
+      .address .zipcode input{width: 50px;} */
+
+      /* .address input {
+         width: 125px;
+      }
+      .address select {
+         margin:0px;
+         padding-right:0px;
+         width: 135px;
+      } */
+
+      .form-check-inline {
+         margin-right: 10px;
+         display: inline-block;
+      }
+
+      .btn-primary {
+         color: #fff;
+         background: #9E005D;
+         margin: 10px 0px;
+         padding:8px 20px;
+         display: inline-block;
+         font-weight: 700;
+         border-radius: 2px;
+      }
+
+      .btn-primary:hover {
+         cursor: pointer;
+         background: #5f0038;
+      }
+
+      /* The Close Button */
+      /* .close {
+         color: #aaaaaa;
+         float: right;
+         font-size: 28px;
+         font-weight: bold;
+      }
+
+      .close:hover,
+      .close:focus {
+         color: #000;
+         text-decoration: none;
+         cursor: pointer;
+      } */
+
+
+      .close {
+         color: #fff;
+         background-color: #6c757d;
+         margin: 10px 0px;
+         padding:8px 20px;
+         display: inline-block;
+         font-weight: 700;
+         border-radius: 2px;
+        
+      }
+
+      .close:hover {
+         cursor: pointer;
+         background: #333;
+         cursor: pointer;
+      }
+
+
+      .form-check-input {
+         position: relative;
+         margin-top: 0px;
+         margin-left: 0rem;
+         margin-right: 5px;
+      }
+
+      .header-sec {
+         /* border-bottom: 1px solid #ccc; */
+         margin-bottom:5px;
+         font-size: 18px;
+         padding-bottom:5px;
+         text-transform: uppercase;
+        
+      }
+      .header-sec .close{ color:#9e005d;}
+
+      .credit-card-img img {
+         max-height: 19px;
+         margin-right: 5px;
+         margin-top: 7px;
+         margin-bottom: 0px;
+         max-width: 100%;
+      }
+      img.transparent{
+	opacity: 0.2;
+  	filter: alpha(opacity=20); /* For IE8 and earlier */
+}
+
+.mt-0{
+   margin-top:0px;
+}
+.mb-3{
+   margin-bottom:3px;
+}
+.mb-15{
+   margin-bottom:15px;
+}
+.credit-card-popup-height{
+   /* height:145px; */
+}
+

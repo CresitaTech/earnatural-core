@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://earnatural.com/index.html</loc>
+    <lastmod>2024-04-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://earnatural.com/phone/index.html"/>
+    <image:image>
+      <image:loc>http://earnatural.com/images/goldline_long.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://earnatural.com/images/shutterstock_1735899377cropped.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://earnatural.com/images/shutterstock_191307035.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://earnatural.com/images/shutterstock_1946314876_cropped.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://earnatural.com/images/comparechart_800.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://earnatural.com/images/comparechart_800467x318.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://earnatural.com/images/antibiotics.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://earnatural.com/images/vs_earnatural.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://earnatural.com/privacy-policy.html</loc>
+    <lastmod>2024-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://earnatural.com/phone/privacy-policy.html"/>
+  </url>
+  <url>
+    <loc>http://earnatural.com/terms-of-service.html</loc>
+    <lastmod>2024-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://earnatural.com/phone/terms-of-service.html"/>
+  </url>
+</urlset>

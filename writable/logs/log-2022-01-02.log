@@ -1,0 +1,19 @@
+ERROR - 2022-01-02 23:33:04 --> Received request{"quantity":"5","unitPrice":"45.00","cardNumber":"5424000000000015","cardHolderName":"Sonu agrawal","cvv":"999","expiryDate":"12\/25","email":"designervka@gmail.com","address1":"101 Bhartat vihar","address2":"Jamdoli","city":"Jaipur","state":"KS","zip":"30202","promocode":"42","productName":"Ear Natural\u00ae ear drops","productDesc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shippingCharge":"4.95","shippingAddress1":"101 Bhartat vihar","shippingAddress2":"Jamdoli","shippingCity":"Jaipur","shippingState":"KS","shippingZip":"30202","optradio":"Same"}
+INFO - 2022-01-02 23:33:04 --> get_customer_info Received request{"cardHolderName":"Sonu agrawal","email":"designervka@gmail.com","address1":"101 Bhartat vihar","address2":"Jamdoli","city":"Jaipur","state":"KS","zip":"30202","promocode":"42","shippingAddress1":"101 Bhartat vihar","shippingAddress2":"Jamdoli","shippingCity":"Jaipur","shippingState":"KS","shippingZip":"30202"}
+INFO - 2022-01-02 23:33:04 --> get_credit_card_info Received request{"customerId":65,"cardHolderName":"Sonu agrawal","cardNumber":"5424000000000015","cvv":"999","expiryDate":"12\/25"}
+INFO - 2022-01-02 23:33:04 --> Cusotmer Email sent
+INFO - 2022-01-02 23:33:05 --> Admin Email sent
+CRITICAL - 2022-01-02 23:57:39 --> Undefined variable: uri
+#0 /home/tchandipg/public_html/earnatural.com/app/Controllers/BaseController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/tchandipg...', 48, Array)
+#1 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-02 23:57:42 --> Undefined variable: uri
+#0 /home/tchandipg/public_html/earnatural.com/app/Controllers/BaseController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/tchandipg...', 48, Array)
+#1 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

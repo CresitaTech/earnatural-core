@@ -1,0 +1,410 @@
+CRITICAL - 2021-12-23 03:09:53 --> Argument 1 passed to CodeIgniter\Entity\Entity::fill() must be of the type array or null, object given, called in /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php on line 29
+#0 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(29): CodeIgniter\Entity\Entity->fill(Object(stdClass))
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 03:10:28 --> json_decode() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', '/home/tchandipg...', 29, Array)
+#1 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(29): json_decode(Object(stdClass))
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#4 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-23 03:12:24 --> Object of class stdClass could not be converted to string
+#0 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(28): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/home/tchandipg...', 28, Array)
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 03:56:02 --> Argument 1 passed to CodeIgniter\Entity\Entity::fill() must be of the type array or null, object given, called in /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php on line 30
+#0 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(30): CodeIgniter\Entity\Entity->fill(Object(stdClass))
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 03:58:30 --> Undefined property: stdClass::$expiryDate
+#0 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/tchandipg...', 34, Array)
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 03:59:08 --> Undefined property: stdClass::$expiryDate
+#0 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/tchandipg...', 34, Array)
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 04:11:07 --> There is no data to insert.
+#0 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(1593): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(Array, 'insert')
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert(Object(App\Entities\Customer), false)
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Customer), false)
+#4 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(51): CodeIgniter\BaseModel->save(Object(App\Entities\Customer))
+#5 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#6 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#7 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-23 04:12:40 --> Undefined property: stdClass::$expiryDate
+#0 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/tchandipg...', 58, Array)
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 04:16:45 --> There is no data to insert.
+#0 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(1593): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(Array, 'insert')
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert(Object(App\Entities\Customer), false)
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Customer), false)
+#4 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(55): CodeIgniter\BaseModel->save(Object(App\Entities\Customer))
+#5 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#6 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#7 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-23 04:19:35 --> There is no data to insert.
+#0 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(1593): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(Array, 'insert')
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert(Object(App\Entities\Customer), false)
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Customer), false)
+#4 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(55): CodeIgniter\BaseModel->save(Object(App\Entities\Customer))
+#5 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#6 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#7 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-23 04:21:46 --> There is no data to insert.
+#0 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(1593): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(Array, 'insert')
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert(Object(App\Entities\Customer), false)
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Customer), false)
+#4 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(59): CodeIgniter\BaseModel->save(Object(App\Entities\Customer))
+#5 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#6 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#7 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-23 04:34:39 --> Call to undefined method App\Entities\Request::getCard_holder_name()
+#0 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-23 04:39:51 --> Call to undefined method App\Entities\Customer::setCreated_at()
+#0 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-23 04:41:09 --> There is no data to insert.
+#0 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(1593): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(Array, 'insert')
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert(Object(App\Entities\Customer), false)
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Customer), false)
+#4 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(63): CodeIgniter\BaseModel->save(Object(App\Entities\Customer))
+#5 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#6 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#7 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-23 04:49:38 --> There is no data to insert.
+#0 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(1593): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(Array, 'insert')
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert(Object(App\Entities\Customer), false)
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Customer), false)
+#4 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(63): CodeIgniter\BaseModel->save(Object(App\Entities\Customer))
+#5 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#6 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#7 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-23 04:53:09 --> There is no data to insert.
+#0 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(1593): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(Array, 'insert')
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert(Object(App\Entities\Customer), false)
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Customer), false)
+#4 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(62): CodeIgniter\BaseModel->save(Object(App\Entities\Customer))
+#5 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#6 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#7 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-23 04:55:16 --> There is no data to insert.
+#0 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(1593): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(Array, 'insert')
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert(Object(App\Entities\Customer), true)
+#3 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(62): CodeIgniter\Model->insert(Object(App\Entities\Customer))
+#4 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#5 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#6 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-23 04:55:19 --> There is no data to insert.
+#0 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(1593): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(Array, 'insert')
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert(Object(App\Entities\Customer), true)
+#3 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(62): CodeIgniter\Model->insert(Object(App\Entities\Customer))
+#4 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#5 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#6 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-23 04:55:21 --> There is no data to insert.
+#0 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(1593): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(Array, 'insert')
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert(Object(App\Entities\Customer), true)
+#3 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(62): CodeIgniter\Model->insert(Object(App\Entities\Customer))
+#4 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#5 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#6 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-23 05:00:39 --> There is no data to insert.
+#0 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#2 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(62): CodeIgniter\Model->insert(Array)
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#4 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#5 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 05:00:41 --> There is no data to insert.
+#0 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#2 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(62): CodeIgniter\Model->insert(Array)
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#4 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#5 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 05:01:24 --> There is no data to insert.
+#0 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#2 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(62): CodeIgniter\Model->insert(Array)
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#4 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#5 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 05:04:07 --> There is no data to insert.
+#0 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#2 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(63): CodeIgniter\Model->insert(Array)
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#4 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#5 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-12-23 05:13:16 --> Received request{"quantity":"1","unitPrice":"45.00","cardNumber":"5424000000000015","card_holder_name":"Naresh","cvv":"999","expiryDate":"12\/25","email":"kuriwaln@opallios.com","address_1":"A-224","address_2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","product_name":"Ear Natural\u00ae ear drops","product_desc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shipping_charge":"4.95","shipping_address_1":"A-224","shipping_address_2":"ddd","shipping_city":"Jaipur","shipping_state":"AR","shipping_zip":"30201","optradio":"Same"}
+INFO - 2021-12-23 05:13:16 --> get_customer_info Received request{"card_holder_name":"Naresh","email":"kuriwaln@opallios.com","address_1":"A-224","address_2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","shipping_address_1":"A-224","shipping_address_2":"ddd","shipping_city":"Jaipur","shipping_state":"AR","shipping_zip":"30201","created_at":"2021-12-23 05:13:16"}
+ERROR - 2021-12-23 05:13:16 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2021-12-23 05:13:16 --> Unknown column 'created_at' in 'field list'
+#0 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `cu...', 0)
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(48): CodeIgniter\Model->insert(Array)
+#8 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#9 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#10 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-12-23 05:15:03 --> Received request{"quantity":"1","unitPrice":"45.00","cardNumber":"5424000000000015","cardHolderName":"Naresh","cvv":"999","expiryDate":"12\/25","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","product_name":"Ear Natural\u00ae ear drops","product_desc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shipping_charge":"4.95","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201","optradio":"Same"}
+CRITICAL - 2021-12-23 05:15:03 --> Undefined property: stdClass::$card_holder_name
+#0 /home/tchandipg/public_html/staging.earnatural.com/app/Libraries/Utils.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/tchandipg...', 168, Array)
+#1 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(44): App\Libraries\Utils->get_customer_info(Object(stdClass))
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#4 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-12-23 05:16:47 --> Received request{"quantity":"1","unitPrice":"45.00","cardNumber":"5424000000000015","cardHolderName":"Naresh","cvv":"999","expiryDate":"12\/25","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","product_name":"Ear Natural\u00ae ear drops","product_desc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shipping_charge":"4.95","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201","optradio":"Same"}
+CRITICAL - 2021-12-23 05:16:47 --> Undefined property: stdClass::$card_holder_name
+#0 /home/tchandipg/public_html/staging.earnatural.com/app/Libraries/Utils.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/tchandipg...', 168, Array)
+#1 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(44): App\Libraries\Utils->get_customer_info(Object(stdClass))
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#4 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-12-23 05:16:58 --> Received request{"quantity":"1","unitPrice":"45.00","cardNumber":"5424000000000015","cardHolderName":"Naresh","cvv":"999","expiryDate":"12\/25","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","product_name":"Ear Natural\u00ae ear drops","product_desc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shipping_charge":"4.95","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201","optradio":"Same"}
+CRITICAL - 2021-12-23 05:16:58 --> Undefined property: stdClass::$card_holder_name
+#0 /home/tchandipg/public_html/staging.earnatural.com/app/Libraries/Utils.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/tchandipg...', 168, Array)
+#1 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(44): App\Libraries\Utils->get_customer_info(Object(stdClass))
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#4 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-12-23 05:17:41 --> Received request{"quantity":"1","unitPrice":"45.00","cardNumber":"5424000000000015","cardHolderName":"Naresh","cvv":"999","expiryDate":"12\/25","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","product_name":"Ear Natural\u00ae ear drops","product_desc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shipping_charge":"4.95","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201","optradio":"Same"}
+CRITICAL - 2021-12-23 05:17:41 --> Undefined property: stdClass::$card_holder_name
+#0 /home/tchandipg/public_html/staging.earnatural.com/app/Libraries/Utils.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/tchandipg...', 168, Array)
+#1 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(44): App\Libraries\Utils->get_customer_info(Object(stdClass))
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#4 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-12-23 05:19:05 --> Received request{"quantity":"1","unitPrice":"45.00","cardNumber":"5424000000000015","cardHolderName":"Naresh k","cvv":"999","expiryDate":"12\/25","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","product_name":"Ear Natural\u00ae ear drops","product_desc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shipping_charge":"4.95","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201","optradio":"Same"}
+CRITICAL - 2021-12-23 05:19:05 --> Undefined property: stdClass::$card_holder_name
+#0 /home/tchandipg/public_html/staging.earnatural.com/app/Libraries/Utils.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/tchandipg...', 168, Array)
+#1 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(44): App\Libraries\Utils->get_customer_info(Object(stdClass))
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#4 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-12-23 05:20:07 --> Received request{"quantity":"1","unitPrice":"45.00","cardNumber":"5424000000000015","cardHolderName":"Naresh k","cvv":"999","expiryDate":"12\/25","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","product_name":"Ear Natural\u00ae ear drops","product_desc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shipping_charge":"4.95","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201","optradio":"Same"}
+CRITICAL - 2021-12-23 05:20:07 --> Undefined property: stdClass::$card_holder_name
+#0 /home/tchandipg/public_html/staging.earnatural.com/app/Libraries/Utils.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/tchandipg...', 168, Array)
+#1 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(44): App\Libraries\Utils->get_customer_info(Object(stdClass))
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#4 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-12-23 05:22:46 --> Received request{"quantity":"1","unitPrice":"45.00","cardNumber":"5424000000000015","cardHolderName":"Naresh k","cvv":"999","expiryDate":"12\/25","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","product_name":"Ear Natural\u00ae ear drops","product_desc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shipping_charge":"4.95","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201","optradio":"Same"}
+INFO - 2021-12-23 05:22:46 --> get_customer_info Received request{"cardHolderName":"Naresh k","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201","createdAt":"2021-12-23 05:22:46"}
+ERROR - 2021-12-23 05:22:46 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2021-12-23 05:22:46 --> Unknown column 'created_at' in 'field list'
+#0 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `cu...', 0)
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(48): CodeIgniter\Model->insert(Array)
+#8 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#9 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#10 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-12-23 05:24:20 --> Received request{"quantity":"1","unitPrice":"45.00","cardNumber":"5424000000000015","cardHolderName":"Naresh k","cvv":"999","expiryDate":"12\/25","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","product_name":"Ear Natural\u00ae ear drops","product_desc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shipping_charge":"4.95","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201","optradio":"Same"}
+INFO - 2021-12-23 05:24:20 --> get_customer_info Received request{"cardHolderName":"Naresh k","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201"}
+ERROR - 2021-12-23 05:24:20 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2021-12-23 05:24:20 --> Unknown column 'created_at' in 'field list'
+#0 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `cu...', 0)
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(48): CodeIgniter\Model->insert(Array)
+#8 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#9 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#10 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-12-23 05:26:14 --> Received request{"quantity":"1","unitPrice":"45.00","cardNumber":"5424000000000015","cardHolderName":"Naresh k","cvv":"999","expiryDate":"12\/25","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","product_name":"Ear Natural\u00ae ear drops","product_desc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shipping_charge":"4.95","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201","optradio":"Same"}
+INFO - 2021-12-23 05:26:14 --> get_customer_info Received request{"cardHolderName":"Naresh k","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201"}
+ERROR - 2021-12-23 05:27:52 --> Received request{"quantity":"1","unitPrice":"45.00","cardNumber":"5424000000000015","cardHolderName":"Naresh k","cvv":"999","expiryDate":"12\/25","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","product_name":"Ear Natural\u00ae ear drops","product_desc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shipping_charge":"4.95","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201","optradio":"Same"}
+INFO - 2021-12-23 05:27:52 --> get_customer_info Received request{"cardHolderName":"Naresh k","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201"}
+ERROR - 2021-12-23 05:38:24 --> Received request{"quantity":"1","unitPrice":"45.00","cardNumber":"5424000000000015","cardHolderName":"Naresh k","cvv":"999","expiryDate":"12\/25","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","product_name":"Ear Natural\u00ae ear drops","product_desc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shipping_charge":"4.95","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201","optradio":"Same"}
+INFO - 2021-12-23 05:38:24 --> get_customer_info Received request{"cardHolderName":"Naresh k","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201"}
+CRITICAL - 2021-12-23 05:38:24 --> Call to undefined method App\Libraries\Utils::get_credit_card_info()
+#0 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-12-23 05:40:04 --> Received request{"quantity":"1","unitPrice":"45.00","cardNumber":"5424000000000015","cardHolderName":"Naresh k","cvv":"999","expiryDate":"12\/25","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","product_name":"Ear Natural\u00ae ear drops","product_desc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shipping_charge":"4.95","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201","optradio":"Same"}
+INFO - 2021-12-23 05:40:04 --> get_customer_info Received request{"cardHolderName":"Naresh k","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201"}
+INFO - 2021-12-23 05:40:04 --> get_credit_card_info Received request{"customerId":4,"cardHolderName":"Naresh k","cardNumber":"5424000000000015","cvv":"999","expiryDate":"12\/25"}
+ERROR - 2021-12-23 05:40:04 --> Unknown column 'customerId' in 'field list'
+CRITICAL - 2021-12-23 05:40:04 --> Unknown column 'customerId' in 'field list'
+#0 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `cu...', 0)
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(48): CodeIgniter\Model->insert(Array)
+#8 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#9 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#10 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-12-23 05:42:32 --> Received request{"quantity":"1","unitPrice":"45.00","cardNumber":"5424000000000015","cardHolderName":"Naresh k","cvv":"999","expiryDate":"12\/25","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","product_name":"Ear Natural\u00ae ear drops","product_desc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shipping_charge":"4.95","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201","optradio":"Same"}
+INFO - 2021-12-23 05:42:32 --> get_customer_info Received request{"cardHolderName":"Naresh k","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201"}
+INFO - 2021-12-23 05:42:32 --> get_credit_card_info Received request{"customerId":5,"cardHolderName":"Naresh k","cardNumber":"5424000000000015","cvv":"999","expiryDate":"12\/25"}
+CRITICAL - 2021-12-23 05:42:32 --> Undefined variable: response
+#0 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/tchandipg...', 51, Array)
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-23 06:04:11 --> Received request{"quantity":"1","unitPrice":"45.00","cardNumber":"5424000000000015","cardHolderName":"Naresh k","cvv":"999","expiryDate":"12\/25","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","productName":"Ear Natural\u00ae ear drops","productDesc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shippingCharge":"4.95","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201","optradio":"Same"}
+INFO - 2021-12-23 06:04:11 --> get_customer_info Received request{"cardHolderName":"Naresh k","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201"}
+INFO - 2021-12-23 06:04:11 --> get_credit_card_info Received request{"customerId":6,"cardHolderName":"Naresh k","cardNumber":"5424000000000015","cvv":"999","expiryDate":"12\/25"}
+CRITICAL - 2021-12-23 06:04:11 --> Undefined property: stdClass::$card_holder_name
+#0 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/tchandipg...', 78, Array)
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-23 06:05:06 --> Received request{"quantity":"1","unitPrice":"45.00","cardNumber":"5424000000000015","cardHolderName":"Naresh k","cvv":"999","expiryDate":"12\/25","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","productName":"Ear Natural\u00ae ear drops","productDesc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shippingCharge":"4.95","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201","optradio":"Same"}
+INFO - 2021-12-23 06:05:06 --> get_customer_info Received request{"cardHolderName":"Naresh k","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201"}
+INFO - 2021-12-23 06:05:06 --> get_credit_card_info Received request{"customerId":7,"cardHolderName":"Naresh k","cardNumber":"5424000000000015","cvv":"999","expiryDate":"12\/25"}
+ERROR - 2021-12-23 06:06:26 --> Received request{"quantity":"1","unitPrice":"45.00","cardNumber":"5424000000000015","cardHolderName":"Naresh k","cvv":"999","expiryDate":"12\/25","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","productName":"Ear Natural\u00ae ear drops","productDesc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shippingCharge":"4.95","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201","optradio":"Same"}
+INFO - 2021-12-23 06:06:26 --> get_customer_info Received request{"cardHolderName":"Naresh k","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201"}
+INFO - 2021-12-23 06:06:26 --> get_credit_card_info Received request{"customerId":8,"cardHolderName":"Naresh k","cardNumber":"5424000000000015","cvv":"999","expiryDate":"12\/25"}
+ERROR - 2021-12-23 06:12:21 --> Received request{"quantity":"1","unitPrice":"45.00","cardNumber":"5424000000000015","cardHolderName":"Naresh k","cvv":"999","expiryDate":"12\/25","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","productName":"Ear Natural\u00ae ear drops","productDesc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shippingCharge":"4.95","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201","optradio":"Same"}
+INFO - 2021-12-23 06:12:21 --> get_customer_info Received request{"cardHolderName":"Naresh k","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201"}
+INFO - 2021-12-23 06:12:21 --> get_credit_card_info Received request{"customerId":9,"cardHolderName":"Naresh k","cardNumber":"5424000000000015","cvv":"999","expiryDate":"12\/25"}
+CRITICAL - 2021-12-23 06:12:21 --> Cannot access private property App\Entities\CreateTransactionResponse::$transactionResponse
+#0 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(149): App\Libraries\Utils->get_order_info(Object(App\Entities\CreateTransactionResponse))
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-23 06:36:04 --> Received request{"quantity":"1","unitPrice":"45.00","cardNumber":"5424000000000015","cardHolderName":"Naresh k","cvv":"999","expiryDate":"12\/25","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","productName":"Ear Natural\u00ae ear drops","productDesc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shippingCharge":"4.95","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201","optradio":"Same"}
+INFO - 2021-12-23 06:36:04 --> get_customer_info Received request{"cardHolderName":"Naresh k","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201"}
+INFO - 2021-12-23 06:36:04 --> get_credit_card_info Received request{"customerId":10,"cardHolderName":"Naresh k","cardNumber":"5424000000000015","cvv":"999","expiryDate":"12\/25"}
+CRITICAL - 2021-12-23 06:36:05 --> Cannot access private property App\Entities\CreateTransactionResponse::$transactionResponse
+#0 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(149): App\Controllers\Payment->get_order_info(Object(App\Entities\CreateTransactionResponse))
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-23 06:37:37 --> Received request{"quantity":"1","unitPrice":"45.00","cardNumber":"5424000000000015","cardHolderName":"Naresh k","cvv":"999","expiryDate":"12\/25","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","productName":"Ear Natural\u00ae ear drops","productDesc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shippingCharge":"4.95","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201","optradio":"Same"}
+INFO - 2021-12-23 06:37:37 --> get_customer_info Received request{"cardHolderName":"Naresh k","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201"}
+INFO - 2021-12-23 06:37:37 --> get_credit_card_info Received request{"customerId":11,"cardHolderName":"Naresh k","cardNumber":"5424000000000015","cvv":"999","expiryDate":"12\/25"}
+CRITICAL - 2021-12-23 06:37:38 --> Argument 1 passed to App\Entities\TransactionResponseType::addToErrors() must be an instance of TransactionResponseType\ErrorsAType\ErrorAType, instance of App\Entities\TransactionResponseType\ErrorsAType\ErrorAType given, called in /home/tchandipg/public_html/staging.earnatural.com/app/Entities/TransactionResponseType.php on line 902
+#0 /home/tchandipg/public_html/staging.earnatural.com/app/Entities/TransactionResponseType.php(902): App\Entities\TransactionResponseType->addToErrors(Object(App\Entities\TransactionResponseType\ErrorsAType\ErrorAType))
+#1 /home/tchandipg/public_html/staging.earnatural.com/app/Entities/CreateTransactionResponse.php(101): App\Entities\TransactionResponseType->set(Array)
+#2 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/base/ApiOperationBase.php(157): App\Entities\CreateTransactionResponse->set(Array)
+#3 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/base/ApiOperationBase.php(109): App\Controllers\base\ApiOperationBase->execute('https://apitest...')
+#4 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(134): App\Controllers\base\ApiOperationBase->executeWithApiResponse('https://apitest...')
+#5 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#6 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#7 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-23 06:38:49 --> Received request{"quantity":"1","unitPrice":"20.00","cardNumber":"5424000000000015","cardHolderName":"Naresh k","cvv":"999","expiryDate":"12\/25","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","productName":"Ear Natural\u00ae ear drops","productDesc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shippingCharge":"4.95","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201","optradio":"Same"}
+INFO - 2021-12-23 06:38:49 --> get_customer_info Received request{"cardHolderName":"Naresh k","email":"kuriwaln@opallios.com","address1":"A-224","address2":"ddd","city":"Jaipur","state":"AR","zip":"30201","promocode":"31","shippingAddress1":"A-224","shippingAddress2":"ddd","shippingCity":"Jaipur","shippingState":"AR","shippingZip":"30201"}
+INFO - 2021-12-23 06:38:49 --> get_credit_card_info Received request{"customerId":12,"cardHolderName":"Naresh k","cardNumber":"5424000000000015","cvv":"999","expiryDate":"12\/25"}
+CRITICAL - 2021-12-23 06:38:49 --> Undefined property: App\Entities\CreateTransactionResponse::$refId
+#0 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Payment.php(150): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/tchandipg...', 150, Array)
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

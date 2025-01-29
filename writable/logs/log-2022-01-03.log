@@ -1,0 +1,278 @@
+INFO - 2022-01-03 00:01:40 --> Data ready for post to URL: https://www.earnatural.com/api
+INFO - 2022-01-03 00:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 00:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 00:01:40 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 00:01:41 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 00:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 00:01:44 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 00:01:44 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 00:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 00:02:23 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 00:02:23 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 00:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 00:02:25 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 00:02:25 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 00:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 00:02:27 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 00:02:27 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 00:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 00:05:31 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 00:05:31 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 00:12:32 --> Data ready for post to URL: https://www.earnatural.com/api
+INFO - 2022-01-03 00:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 00:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 00:12:33 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 00:12:33 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 00:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 00:13:06 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 00:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 00:13:07 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 00:13:07 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 00:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 00:13:11 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 00:13:11 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 00:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 00:16:49 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 00:16:49 --> Data ready for post to URL: http://staging.earnatural.com/api
+ERROR - 2022-01-03 00:20:57 --> Received request{"quantity":"1","unitPrice":"45.00","cardNumber":"5424000000000015","card_holder_name":"Vishnu Kumar ","cvv":"999","expiryDate":"12\/25","email":"designervka@gmail.com","address_1":"101 Bhartat vihar","address_2":"","city":"Jaipur","state":"AL","zip":"30202","promocode":"41","product_name":"Ear Natural\u00ae ear drops","product_desc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shipping_charge":"4.95","shipping_address_1":"101 Bhartat vihar","shipping_address_2":"","shipping_city":"Jaipur","shipping_state":"AL","shipping_zip":"30202","optradio":"Same"}
+CRITICAL - 2022-01-03 00:20:57 --> Undefined property: stdClass::$cardHolderName
+#0 /home/tchandipg/public_html/earnatural.com/app/Libraries/Utils.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/tchandipg...', 168, Array)
+#1 /home/tchandipg/public_html/earnatural.com/app/Controllers/Product.php(56): App\Libraries\Utils->get_customer_info(Object(stdClass))
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Product->create()
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#4 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+INFO - 2022-01-03 02:20:46 --> Data ready for post to URL: https://www.earnatural.com/api
+INFO - 2022-01-03 02:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 02:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 02:20:48 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 02:20:49 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 02:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 02:21:00 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 02:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 02:21:01 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 02:21:01 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 02:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 02:24:08 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 02:24:08 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 02:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 02:35:43 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 02:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 02:35:44 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 02:35:44 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:02:50 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:02:50 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:03:14 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:03:14 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:06:30 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:06:30 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:06:32 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:06:32 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:06:33 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:06:33 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:10:23 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:10:23 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:10:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:10:57 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:10:57 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:10:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:10:57 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:10:57 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:10:58 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:10:58 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:11:58 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:11:58 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:11:59 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:11:59 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:13:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:13:08 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:13:09 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:13:55 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:13:56 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:14:00 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:14:00 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:14:01 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:14:01 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:14:03 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:14:03 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:14:04 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:14:04 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:14:45 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:14:45 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:14:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:14:46 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:14:46 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:15:35 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:15:35 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:15:36 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:15:36 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:15:37 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:15:37 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:16:23 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:16:23 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:16:24 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:16:24 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:29:07 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:29:07 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:29:14 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:29:15 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:29:39 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:29:39 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:32:32 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:32:32 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:34:05 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:34:05 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:34:55 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:34:56 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:36:19 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:36:19 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:36:21 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:36:21 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:41:53 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:41:53 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:41:55 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:41:55 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:43:07 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:43:08 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:43:09 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:43:09 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:43:50 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:43:51 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:43:52 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:43:52 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:49:15 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:49:15 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:49:25 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:49:26 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:49:26 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:50:34 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:50:34 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:50:34 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:50:35 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:51:01 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:51:02 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:51:02 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:51:38 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:51:39 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:51:39 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:54:00 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:54:00 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:54:04 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:54:04 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:54:17 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:54:17 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:54:17 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:55:16 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:55:16 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:55:24 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:55:24 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:55:50 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:55:51 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:55:51 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:57:26 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:57:26 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:58:01 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:58:02 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:58:02 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 03:59:05 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 03:59:05 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 05:15:57 --> Data ready for post to URL: https://www.earnatural.com/api
+INFO - 2022-01-03 05:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 05:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 05:15:58 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 05:16:00 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 05:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 05:16:22 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 05:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 05:16:23 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 05:16:23 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 05:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 05:16:26 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 05:16:26 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 05:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-03 05:16:28 --> Data ready for post to URL: http://staging.earnatural.com/api
+INFO - 2022-01-03 05:16:28 --> Data ready for post to URL: http://staging.earnatural.com/api
+ERROR - 2022-01-03 05:50:46 --> Received request{"quantity":"1","unitPrice":"45.00","cardNumber":"5424000000000015","cardHolderName":"Vishnu Kumar ","cvv":"999","expiryDate":"12\/25","email":"designervka@gmail.com","address1":"101 Bhartat vihar","address2":"","city":"Jaipur","state":"AK","zip":"30202","promocode":"31","productName":"Ear Natural\u00ae ear drops","productDesc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shippingCharge":"4.95","shippingAddress1":"101 Bhartat vihar","shippingAddress2":"","shippingCity":"Jaipur","shippingState":"ME","shippingZip":"30202","optradio":"different"}
+INFO - 2022-01-03 05:50:46 --> get_customer_info Received request{"cardHolderName":"Vishnu Kumar ","email":"designervka@gmail.com","address1":"101 Bhartat vihar","address2":"","city":"Jaipur","state":"AK","zip":"30202","promocode":"31","shippingAddress1":"101 Bhartat vihar","shippingAddress2":"","shippingCity":"Jaipur","shippingState":"ME","shippingZip":"30202"}
+INFO - 2022-01-03 05:50:46 --> get_credit_card_info Received request{"customerId":66,"cardHolderName":"Vishnu Kumar ","cardNumber":"5424000000000015","cvv":"999","expiryDate":"12\/25"}
+INFO - 2022-01-03 05:50:48 --> Cusotmer Email sent
+INFO - 2022-01-03 05:50:48 --> Admin Email sent
+ERROR - 2022-01-03 05:54:39 --> Received request{"quantity":"8","unitPrice":"45.00","cardNumber":"5424000000000015","cardHolderName":"Sonu agrawal","cvv":"999","expiryDate":"09\/25","email":"designervka@gmail.com","address1":"101 Bhartat vihar","address2":"Jamdoli","city":"Jaipur","state":"KY","zip":"30202","promocode":"42","productName":"Ear Natural\u00ae ear drops","productDesc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shippingCharge":"4.95","shippingAddress1":"101 Bhartat vihar","shippingAddress2":"Jamdoli","shippingCity":"Jaipur","shippingState":"KY","shippingZip":"30202","optradio":"Same"}
+INFO - 2022-01-03 05:54:39 --> get_customer_info Received request{"cardHolderName":"Sonu agrawal","email":"designervka@gmail.com","address1":"101 Bhartat vihar","address2":"Jamdoli","city":"Jaipur","state":"KY","zip":"30202","promocode":"42","shippingAddress1":"101 Bhartat vihar","shippingAddress2":"Jamdoli","shippingCity":"Jaipur","shippingState":"KY","shippingZip":"30202"}
+INFO - 2022-01-03 05:54:39 --> get_credit_card_info Received request{"customerId":67,"cardHolderName":"Sonu agrawal","cardNumber":"5424000000000015","cvv":"999","expiryDate":"09\/25"}
+INFO - 2022-01-03 05:54:39 --> Cusotmer Email sent
+INFO - 2022-01-03 05:54:40 --> Admin Email sent
+ERROR - 2022-01-03 05:59:52 --> Received request{"quantity":"2","unitPrice":"45.00","cardNumber":"5424000000000015","card_holder_name":"Vishnu kumar Garg","cvv":"999","expiryDate":"12\/25","email":"designervka@gmail.com","address_1":"101 Bhartat vihar","address_2":"Jamdoli","city":"Jaipur","state":"AL","zip":"30202","promocode":"31","product_name":"Ear Natural\u00ae ear drops","product_desc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shipping_charge":"4.95","shipping_address_1":"101 Bhartat vihar","shipping_address_2":"Jamdoli","shipping_city":"Jaipur","shipping_state":"AL","shipping_zip":"30202","optradio":"Same"}
+CRITICAL - 2022-01-03 05:59:52 --> Undefined property: stdClass::$cardHolderName
+#0 /home/tchandipg/public_html/earnatural.com/app/Libraries/Utils.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/tchandipg...', 168, Array)
+#1 /home/tchandipg/public_html/earnatural.com/app/Controllers/Product.php(56): App\Libraries\Utils->get_customer_info(Object(stdClass))
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Product->create()
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#4 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-01-03 06:00:33 --> Received request{"quantity":"2","unitPrice":"45.00","cardNumber":"5424000000000015","card_holder_name":"Vishnu kumar Garg","cvv":"999","expiryDate":"11\/25","email":"designervka@gmail.com","address_1":"101 Bhartat vihar","address_2":"Jamdoli","city":"Jaipur","state":"AL","zip":"30202","promocode":"31","product_name":"Ear Natural\u00ae ear drops","product_desc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shipping_charge":"4.95","shipping_address_1":"101 Bhartat vihar","shipping_address_2":"Jamdoli","shipping_city":"Jaipur","shipping_state":"AL","shipping_zip":"30202","optradio":"Same"}
+CRITICAL - 2022-01-03 06:00:33 --> Undefined property: stdClass::$cardHolderName
+#0 /home/tchandipg/public_html/earnatural.com/app/Libraries/Utils.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/tchandipg...', 168, Array)
+#1 /home/tchandipg/public_html/earnatural.com/app/Controllers/Product.php(56): App\Libraries\Utils->get_customer_info(Object(stdClass))
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Product->create()
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#4 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

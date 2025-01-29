@@ -1,0 +1,54 @@
+ERROR - 2021-12-28 00:01:41 --> Received request{"quantity":"7","unitPrice":"45.00","cardNumber":"5424000000000015","cardHolderName":"Sonu agrawal","cvv":"999","expiryDate":"09\/25","email":"designervka@gmail.com","address1":"101,103 LONDON HOME","address2":"","city":"Jaipur","state":"KS","zip":"30202","promocode":"42","productName":"Ear Natural\u00ae ear drops","productDesc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shippingCharge":"4.95","shippingAddress1":"101,103 LONDON HOME","shippingAddress2":"","shippingCity":"Jaipur","shippingState":"KS","shippingZip":"30202","optradio":"Same"}
+INFO - 2021-12-28 00:01:41 --> get_customer_info Received request{"cardHolderName":"Sonu agrawal","email":"designervka@gmail.com","address1":"101,103 LONDON HOME","address2":"","city":"Jaipur","state":"KS","zip":"30202","promocode":"42","shippingAddress1":"101,103 LONDON HOME","shippingAddress2":"","shippingCity":"Jaipur","shippingState":"KS","shippingZip":"30202"}
+INFO - 2021-12-28 00:01:41 --> get_credit_card_info Received request{"customerId":62,"cardHolderName":"Sonu agrawal","cardNumber":"5424000000000015","cvv":"999","expiryDate":"09\/25"}
+INFO - 2021-12-28 00:01:42 --> Cusotmer Email sent
+INFO - 2021-12-28 00:01:42 --> Admin Email sent
+CRITICAL - 2021-12-28 00:04:31 --> Undefined index: name
+#0 /home/tchandipg/public_html/staging.earnatural.com/app/Views/templates/admin.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/tchandipg...', 68, Array)
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/tchandipg...')
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('templates/admin', Array, true)
+#4 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Home.php(20): view('templates/admin', Array)
+#5 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->admin()
+#6 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-28 00:04:39 --> Undefined index: name
+#0 /home/tchandipg/public_html/staging.earnatural.com/app/Views/templates/admin.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/tchandipg...', 68, Array)
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/tchandipg...')
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('templates/admin', Array, true)
+#4 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Home.php(20): view('templates/admin', Array)
+#5 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->admin()
+#6 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-28 00:04:46 --> Undefined index: name
+#0 /home/tchandipg/public_html/staging.earnatural.com/app/Views/templates/admin.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/tchandipg...', 68, Array)
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/tchandipg...')
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('templates/admin', Array, true)
+#4 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Home.php(20): view('templates/admin', Array)
+#5 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->admin()
+#6 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-28 00:04:53 --> Undefined index: name
+#0 /home/tchandipg/public_html/staging.earnatural.com/app/Views/templates/admin.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/tchandipg...', 68, Array)
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/tchandipg...')
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('templates/admin', Array, true)
+#4 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Home.php(20): view('templates/admin', Array)
+#5 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->admin()
+#6 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-28 07:16:03 --> Received request{"quantity":"5","unitPrice":"45.00","cardNumber":"5424000000000015","cardHolderName":"Naresh khuriwal","cvv":"999","expiryDate":"12\/25","email":"kuriwaln@opallios.com","address1":"9 Jhunjhunu","address2":"Jaipur","city":"Jaipur","state":"AZ","zip":"30201","promocode":"42","productName":"Ear Natural\u00ae ear drops","productDesc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shippingCharge":"4.95","shippingAddress1":"9 Jhunjhunu","shippingAddress2":"Jaipur","shippingCity":"Jaipur","shippingState":"AZ","shippingZip":"30201","optradio":"Same"}
+INFO - 2021-12-28 07:16:03 --> get_customer_info Received request{"cardHolderName":"Naresh khuriwal","email":"kuriwaln@opallios.com","address1":"9 Jhunjhunu","address2":"Jaipur","city":"Jaipur","state":"AZ","zip":"30201","promocode":"42","shippingAddress1":"9 Jhunjhunu","shippingAddress2":"Jaipur","shippingCity":"Jaipur","shippingState":"AZ","shippingZip":"30201"}
+INFO - 2021-12-28 07:16:03 --> get_credit_card_info Received request{"customerId":63,"cardHolderName":"Naresh khuriwal","cardNumber":"5424000000000015","cvv":"999","expiryDate":"12\/25"}
+INFO - 2021-12-28 07:16:04 --> Cusotmer Email sent
+INFO - 2021-12-28 07:16:04 --> Admin Email sent

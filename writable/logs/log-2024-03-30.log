@@ -1,0 +1,3 @@
+ERROR - 2024-03-30 07:33:56 --> Received request{"quantity":"1","unitPrice":"45.00","cardNumber":"4856200608512748","cardHolderName":"Internet Promise","cvv":"182","expiryDate":"04\/24","email":"chand@internetpromise.com","address1":"2390 Crenshaw Blvd Suite #239","address2":"","city":"Torrance","state":"CA","zip":"90501","promocode":"33","productName":"Ear Natural\u00ae ear drops","productDesc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shippingCharge":"4.95","shippingAddress1":"2390 Crenshaw Blvd Suite #239","shippingAddress2":"","shippingCity":"Torrance","shippingState":"CA","shippingZip":"90501","optradio":"Same"}
+INFO - 2024-03-30 07:34:02 --> Cusotmer Email sent
+INFO - 2024-03-30 07:34:07 --> Admin Email sent

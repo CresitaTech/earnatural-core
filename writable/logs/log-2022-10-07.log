@@ -1,0 +1,28 @@
+ERROR - 2022-10-07 05:36:40 --> Received request{"quantity":"1","unitPrice":"45.00","cardNumber":"5424000000000015","cardHolderName":"test","cvv":"999","expiryDate":"11\/25","email":"test@gmail.com","address1":"dummy","address2":"","city":"dummy","state":"KY","zip":"12345","promocode":"null","productName":"Ear Natural\u00ae ear drops","productDesc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shippingCharge":"4.95","shippingAddress1":"dummy","shippingAddress2":"","shippingCity":"dummy","shippingState":"KY","shippingZip":"12345","optradio":"Same"}
+ERROR - 2022-10-07 06:06:10 --> Received request{"quantity":"1","unitPrice":"","cardNumber":"5424000000000015","cardHolderName":"test","cvv":"999","expiryDate":"11\/25","email":"test@gmail.com","address1":"test","address2":"","city":"test","state":"GA","zip":"12345","promocode":"null","productName":"Ear Natural\u00ae ear drops","productDesc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shippingCharge":"4.95","shippingAddress1":"test","shippingAddress2":"","shippingCity":"test","shippingState":"GA","shippingZip":"12345","optradio":"Same"}
+CRITICAL - 2022-10-07 06:06:10 --> A non-numeric value encountered
+#0 /home/tchandipg/public_html/earnatural.com/app/Controllers/Payment.php(269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/tchandipg...', 269, Array)
+#1 /home/tchandipg/public_html/earnatural.com/app/Controllers/Payment.php(44): App\Controllers\Payment->getOrderItems(Object(stdClass))
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#4 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-10-07 06:17:34 --> Received request{"quantity":"1","unitPrice":"","cardNumber":"5424000000000015","cardHolderName":"Test","cvv":"999","expiryDate":"09\/25","email":"test@gmail.com","address1":"abc","address2":"","city":"abc","state":"AL","zip":"adddd","promocode":"null","productName":"Ear Natural\u00ae ear drops","productDesc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shippingCharge":"4.95","shippingAddress1":"abc","shippingAddress2":"","shippingCity":"abc","shippingState":"AL","shippingZip":"adddd","optradio":"Same"}
+CRITICAL - 2022-10-07 06:17:34 --> A non-numeric value encountered
+#0 /home/tchandipg/public_html/earnatural.com/app/Controllers/Payment.php(269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/tchandipg...', 269, Array)
+#1 /home/tchandipg/public_html/earnatural.com/app/Controllers/Payment.php(44): App\Controllers\Payment->getOrderItems(Object(stdClass))
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#4 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-10-07 06:18:39 --> Received request{"quantity":"1","unitPrice":"","cardNumber":"5424000000000015","cardHolderName":"test","cvv":"999","expiryDate":"09\/24","email":"test@gmail.com","address1":"test","address2":"","city":"test","state":"AL","zip":"12345","promocode":"null","productName":"Ear Natural\u00ae ear drops","productDesc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shippingCharge":"4.95","shippingAddress1":"test","shippingAddress2":"","shippingCity":"test","shippingState":"AL","shippingZip":"12345","optradio":"Same"}
+CRITICAL - 2022-10-07 06:18:39 --> A non-numeric value encountered
+#0 /home/tchandipg/public_html/earnatural.com/app/Controllers/Payment.php(269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/tchandipg...', 269, Array)
+#1 /home/tchandipg/public_html/earnatural.com/app/Controllers/Payment.php(44): App\Controllers\Payment->getOrderItems(Object(stdClass))
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Payment->chargeCreditCard()
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#4 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

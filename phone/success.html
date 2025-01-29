@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Success</title>
+</head>
+<body>
+    <div id="creditCardServiceMessage" style="text-align: center;">
+        <h1 id="creditCardStatus"></h1>
+        <p id="creditCardResponse"></p>
+        <br>
+        <div class="row">
+            <div class="col mb-4"> Please check your email for your order confirmation. </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col mb-4"> Be sure to check your SPAM folder in case you don’t receive your confirmation email from us. </div>
+        </div>
+        <br>
+        <a href="index.html#main" 
+            style="color: #fff;
+                background: #9E005D;
+                margin: 10px 0px;
+                padding:8px 20px;
+                display: inline-block;
+                font-weight: 700;
+                border-radius: 2px;
+                text-decoration: none;">Go back to Home page</a>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const params = new URLSearchParams(window.location.search);
+            const status = params.get('status');
+            const message = params.get('message');
+            document.getElementById('creditCardStatus').innerText = status;
+            document.getElementById('creditCardResponse').innerText = message;
+        });
+    </script>
+</body>
+</html>

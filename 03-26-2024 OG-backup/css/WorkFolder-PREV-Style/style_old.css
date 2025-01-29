@@ -1,0 +1,534 @@
+.loader{
+   position: fixed;
+   left: 0px;
+   top: 0px;
+   width: 100%;
+   height: 100%;
+   z-index: 9999;
+   background-image : url('../images/loader.gif');
+ }
+ 
+ .loader{
+ display:none;
+ }
+ 
+ 
+ @keyframes spin {
+   0% { transform: rotate(0deg); }
+   100% { transform: rotate(360deg); }
+ }
+
+
+
+
+
+
+
+/* #u1566 { 
+   top: 90px !important;
+} */
+#u5232-13{
+   top: 435px !important;
+}
+
+#u1360{
+   display:none;
+}
+
+.mgswidth .row, .mgswidth .col{
+   width: 100%;
+}
+
+
+#u12323 {
+   top: 575px !important;
+   min-height: 56px;
+   left: 70px !important;
+   z-index: 289;
+   border-color: transparent;
+   border-width: 0px;
+   width: 239px !important;
+   position: fixed;
+   background-color: transparent;
+}
+
+.alert-secondary{
+    color: #383d41;
+    background-color: #e2e3e5;
+    border-color: #d6d8db;
+}
+.totalAmount-text{
+   text-align:right;
+   font-size:1rem;
+}
+.totalAmount-text strong{
+   float:right;
+   font-weight:bold;
+}
+
+.image-cropper {
+    width: 30px;
+    height: 30px;
+	background-color: blanchedalmond;
+    border-radius: 50%;
+	font-weight: bold;
+	padding: 5px;
+}
+
+
+#loader {
+position : fixed;
+z-index: 600;
+background-image : url('../images/loader.gif');
+background-color:#666;
+opacity : 0.4;
+background-repeat : no-repeat;
+background-position : center;
+left : 0;
+bottom : 0;
+right : 0;
+top : 0;
+  }
+
+  .card-number-sec{ position: relative; width:237px;}
+  .card-number-sec #validCard, .card-number-sec #notvalidCard{ 
+     position: relative; 
+     top: 2px;  
+     /* left:250px; */
+   }
+  .alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.alert {
+    position: relative;
+    padding:.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+      #provide-another-address{
+         display:none;
+      }
+      button {
+         display: block;
+      }
+
+      button:hover {
+         cursor: pointer;
+      }
+
+      /* The Modal (background) */
+      .modal {
+         display: none;
+         /* Hidden by default */
+         position: fixed;
+         /* Stay in place */
+         z-index: 500;
+         /* Sit on top */
+         padding-top:0px;
+         /* Location of the box */
+         left: 0;
+         top:0px;
+         width: 100%;
+         /* Full width */
+         height: 100%;
+         /* Full height */
+         overflow: visible;
+         /* Enable scroll if needed */
+         background-color: rgb(0, 0, 0);
+         /* Fallback color */
+         background-color: rgba(0, 0, 0, 0.4);
+         /* Black w/ opacity */
+
+         
+      }
+      .modal_inside_checkout{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100%;
+      } 
+        .modal-dialog{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100%;
+      } 
+
+      /* Modal Content */
+      .modal-content {
+         background-color: #fefefe;
+         margin: 0px auto;
+         padding:0px 15px 5px;
+         border: 1px solid #888;
+         width:370px;
+         /* min-height: 690px;
+         height: 690px; */
+         overflow: visible;
+         overflow-y: auto;
+         height: 540px;
+
+      }
+      .form-scroll{
+         /* height:530px;
+         overflow-y: auto; */
+      }
+
+      
+      #creditCardServiceMessage .modal-content {
+         background-color: #fefefe;
+         margin: 0px auto;
+         padding: 10px 20px;
+         border: 1px solid #888;
+         width: 300px;
+         height: 145px;
+         overflow: visible;
+         overflow-y: visible;
+         text-align:center;
+      }
+      h4#creditCardStatus{ font-size:1.2rem; margin:30px 0 10px; font-weight:bold;}
+
+      .product-price {
+         /* margin-top: 30px; */
+      }
+
+      .product-price .price {
+         float: left;
+         width: 100px;
+         color: #000;
+      }
+
+      .product-price .qty {
+         float: right;
+         width: 100;
+         color: #000;
+         margin-top: -5px;
+      }
+
+      .product-price .qty .form-control {
+         display: inline-block;
+         width: auto;
+      }
+
+      .checkout-btn{
+         margin-top:10px;
+      }
+      .checkout-btn .btn{
+         display: block;
+         text-align: center;
+         width: 239px;
+         font-style: initial;
+      }
+
+      .form-group {
+         width: 100%;
+         margin-bottom: 7px;
+      }
+
+      .row,
+      .col {
+         width: 368px;
+      }
+
+      .col-6 {
+         width: 48%;
+      }
+
+      .col-8 {
+         width: 70%;
+      }
+
+      .col-4 {
+         width: 135px;
+      }
+      .w-60 {
+         width: 60px;
+         overflow: hidden;
+      }
+      .w-20 {
+         width: 20px;
+         
+      }
+      .w-20 img{ margin-left:4px;}
+
+      .w-45 {
+         width: 45px;
+         overflow: hidden;
+      }
+
+      .w-45 .form-control {
+         text-align: center;
+         width: 35px;
+      }
+
+      .w-140 {
+         width: 140px;
+      }
+
+      .w-140 .form-control {
+         text-align: center;
+         width: 130px;
+      }
+
+      .w-180 {
+         width: 200px;
+      }
+
+      .w-180 .form-control {
+         text-align: center;
+         width: 200px;
+      }
+
+      .email .form-control {
+         width: 96%;
+      }
+
+      .col .form-control {
+         width: 350px;
+      }
+
+      .w-70 {
+         width: 70px;
+         overflow: hidden;
+      }
+
+      .w-70 .form-control {
+         text-align: center;
+         width: 60px;
+      }
+
+      .w-90 {
+         width: 90px;
+         overflow: hidden;
+      }
+      .w-90 .form-control {
+         /* text-align: center; */
+         width: 80px;
+      }
+      .ExpiryDate{
+         width: 75px;
+         overflow: hidden;
+      }
+      .ExpiryDate .form-control {
+         width: 57px;
+      }
+
+      .float-L {
+         float: left;
+      }
+
+      .float-R {
+         float: right;
+      }
+      .text-center{
+         text-align: center;
+      }
+
+      .m-5 {
+         margin-left: 5px;
+         margin-right: 5px;
+      }
+
+      .mB-30 {
+         margin-bottom: 30px;
+      }
+     
+      .mb-0{
+         margin-bottom:0px;
+      }
+
+      .mR-50 {
+         margin-right: 50px;
+      }
+
+      sup {
+         color: #f00;
+      }
+
+      .clear {
+         clear: both;
+      }
+
+      .form-control {
+         display: block;
+         width: 100%;
+         padding:4px;
+         font-size: 12px;
+         line-height: 1;
+         color: #495057;
+         background-color: #fff;
+         background-clip: padding-box;
+         border: 1px solid #ced4da;
+         border-radius: 0.25rem;
+         transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      }
+
+      .hyphen {
+         width: 15px;
+         text-align: center;
+         line-height: 24px;
+         float: left;
+      }
+      .hyphen-10 {
+         width: 10px;
+         text-align: center;
+         line-height: 24px;
+         float: left;
+      }
+      .hyphen-22 {
+         width: 22px;
+         text-align: center;
+         line-height: 24px;
+         float: left;
+      }
+
+      .label {
+         font-weight: 700;
+         margin-bottom: 1px;
+         width: 100%;
+         font-size: 12px;
+      }
+
+      .heading {
+         font-size: 15px;
+         margin-top: 13px;
+         margin-bottom: 5px;
+         font-weight: 700;
+         text-transform: capitalize;
+         position: relative;
+      }  
+      .header-sec strong{
+         float:right;
+         color:#a4a4a4;
+         font-size: 13.5px;
+        
+      }
+      .header-sec strong:first-child{
+         margin-left:10px;
+         position: relative;
+         right:2px;
+      }
+      .header-sec strong:last-child{
+         position: absolute;
+         left: 80px;
+      }
+      .heading strong span{
+         /* color:#000; */
+      }
+      .heading strong img{
+         position: relative;
+         top: 4px;
+      }
+      .address .city{width: 135px;}
+      .address .city input{width: 125px;}
+
+      .address .state{width: 135px;}
+      .address .state select {
+         margin:0px;
+         padding-right:0px;
+         width: 135px;
+      }
+      .address .zipcode{width: 62px;}
+      .address .zipcode input{width: 50px;}
+
+      /* .address input {
+         width: 125px;
+      }
+      .address select {
+         margin:0px;
+         padding-right:0px;
+         width: 135px;
+      } */
+
+      .form-check-inline {
+         margin-right: 10px;
+         display: inline-block;
+      }
+
+      .btn-primary {
+         color: #fff;
+         background: #9E005D;
+         margin: 10px 0px;
+         padding:8px 20px;
+         display: inline-block;
+         font-weight: 700;
+         border-radius: 2px;
+      }
+
+      .btn-primary:hover {
+         cursor: pointer;
+         background: #5f0038;
+      }
+
+      /* The Close Button */
+      /* .close {
+         color: #aaaaaa;
+         float: right;
+         font-size: 28px;
+         font-weight: bold;
+      }
+
+      .close:hover,
+      .close:focus {
+         color: #000;
+         text-decoration: none;
+         cursor: pointer;
+      } */
+
+
+      .close {
+         color: #fff;
+         background-color: #6c757d;
+         margin: 10px 0px;
+         padding:8px 20px;
+         display: inline-block;
+         font-weight: 700;
+         border-radius: 2px;
+        
+      }
+
+      .close:hover {
+         cursor: pointer;
+         background: #333;
+         cursor: pointer;
+      }
+
+
+      .form-check-input {
+         position: relative;
+         margin-top: 0px;
+         margin-left: 0rem;
+         margin-right: 5px;
+      }
+
+      .header-sec {
+         border-bottom: 1px solid #ccc;
+         margin-bottom:5px;
+         font-size: 18px;
+         padding-bottom:5px;
+         text-transform: uppercase;
+        
+      }
+      .header-sec .close{ color:#9e005d;}
+
+      .credit-card-img img {
+         max-height: 15px;
+         margin-right: 5px;
+         margin-top: 5px;
+         margin-bottom: 0px;
+         max-width: 100%;
+      }
+      img.transparent{
+	opacity: 0.2;
+  	filter: alpha(opacity=20); /* For IE8 and earlier */
+}
+
+.mt-0{
+   margin-top:0px;
+}
+.mb-3{
+   margin-bottom:3px;
+}

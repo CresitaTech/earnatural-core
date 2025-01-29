@@ -1,0 +1,1637 @@
+.loader{
+   position: fixed;
+   left: 0px;
+   top: 0px;
+   width: 100%;
+   height: 100%;
+   z-index: 9999;
+   background-image : url('../images/loader.gif');
+ }
+ 
+ .loader{
+ display:none;
+ }
+ 
+ 
+ @keyframes spin {
+   0% { transform: rotate(0deg); }
+   100% { transform: rotate(360deg); }
+ }
+
+
+.parsley-custom-error-message{
+   color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    position: relative;
+    padding: .2rem .5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+ 
+
+
+/* #u1566 { 
+   top: 90px !important;
+} */
+#u5232-13{
+   top: 435px !important;
+}
+#u5232-14{
+    position: relative;
+    top:-4px;
+}
+
+#u1360{
+   display:none;
+}
+
+.mgswidth .row, .mgswidth .col{
+   width: 100%;
+}
+
+
+#u12323 {
+   display: block;
+   top: 30px;
+   min-height: 56px;
+   left: 0px;
+   z-index: 0;
+   border-color: transparent;
+   border-width: 0px;
+   width: 262px;
+   position: absolute;
+   background-color: transparent;
+}
+
+.alert-secondary{
+    color: #383d41;
+    background-color: #e2e3e5;
+    border-color: #d6d8db;
+}
+.totalAmount-text{
+   text-align:right;
+   font-size:1rem;
+}
+.totalAmount-text strong{
+   float:right;
+   font-weight:bold;
+}
+
+.image-cropper {
+    width: 30px;
+    height: 30px;
+	background-color: blanchedalmond;
+    border-radius: 50%;
+	font-weight: bold;
+	padding: 5px;
+}
+
+
+#loader {
+position : fixed;
+z-index: 600;
+background-image : url('../images/loader.gif');
+background-color:#666;
+opacity : 0.4;
+background-repeat : no-repeat;
+background-position : center;
+left : 0;
+bottom : 0;
+right : 0;
+top : 0;
+  }
+
+  .card-number-sec{ position: relative; width:202px;}
+  .card-number-sec #validCard, .card-number-sec #notvalidCard{ 
+     position: relative; 
+     top: 2px;  
+     /* left:250px; */
+   }
+  .alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.alert {
+    position: relative;
+    padding:.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+      #provide-another-address{
+         display:none;
+      }
+      button {
+         display: block;
+      }
+
+      button:hover {
+         cursor: pointer;
+      }
+
+      /* The Modal (background) */
+      .modal {
+         display: none;
+         /* Hidden by default */
+         position: fixed;
+         /* Stay in place */
+         z-index: 500;
+         /* Sit on top */
+         padding-top:0px;
+         /* Location of the box */
+         left: 0;
+         top:0px;
+         width: 100%;
+         /* Full width */
+         height: 100%;
+         /* Full height */
+         overflow: visible;
+         /* Enable scroll if needed */
+         background-color: rgb(0, 0, 0);
+         /* Fallback color */
+         background-color: rgba(0, 0, 0, 0.4);
+         /* Black w/ opacity */
+
+         
+      }
+      .modal_inside_checkout{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100%;
+      } 
+        .modal-dialog{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100%;
+      } 
+
+      /* Modal Content */
+      .modal-content {
+         background-color: #fefefe;
+         margin: 0px auto;
+         padding:0px 15px 5px;
+         border: 1px solid #888;
+         width:350px;
+         /* min-height: 690px;
+         height: 690px; */
+         overflow: visible;
+         overflow-y: auto;
+         min-height: 555px;
+
+      }
+      .form-scroll{
+         /* height:530px;
+         overflow-y: auto; */
+      }
+
+      
+      #creditCardServiceMessage .modal-content{
+         background-color: #fefefe;
+         margin: 0px auto;
+         padding: 10px 20px;
+         border: 1px solid #888;
+         width: 300px;
+         min-height: 145px;
+         overflow: visible;
+         overflow-y: visible;
+         text-align:center;
+      }
+      #creditCardServiceErrorMessage .modal-content {
+         background-color: #fefefe;
+         margin: 0px auto;
+         padding: 10px 20px;
+         border: 1px solid #888;
+         width: 250px;
+         min-height: 145px;
+         overflow: visible;
+         overflow-y: visible;
+         text-align:center;
+      }
+      #creditCardServiceErrorMessage .modal-content h4{
+         font-size:1.2rem; margin:30px 0 10px; font-weight:bold;
+      }
+      h4#creditCardStatus{ font-size:1.2rem; margin:30px 0 10px; font-weight:bold;}
+
+      .product-price {
+         /* margin-top: 30px; */
+      }
+
+      .product-price .price {
+         float: left;
+         width: 100px;
+         color: #000;
+      }
+
+      .product-price .qty {
+         float: right;
+         width: 100;
+         color: #000;
+         margin-top: 3px;
+      }
+
+      .product-price .qty .form-control {
+         display: inline-block;
+         width: auto;
+      }
+
+
+.discountcode{
+    margin-top:5px;
+}
+.discountcode fieldset{
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+    z-index: 238;
+    border-color: #cfcbcb;
+   background-color: #e8e5e5;
+}
+.discountcode fieldset legend{
+    color: #000;
+    font-weight: 600;
+    font-size:12px;
+    position: absolute;
+    width: 90%;
+    text-align: center;
+    margin: 0px auto;
+}
+.discountcode fieldset .discount-text{
+    font-size:12px;
+    color: #736357;
+    width: 90%;
+    text-align: center;
+    margin: 0px auto;
+    line-height: 15px;
+    margin-top: 10px;
+    font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+    position: relative;
+    z-index: 239;
+}
+.discountcode fieldset select{
+   display: block;
+       width: 75%;
+       padding:4px;
+       font-size: 12px;
+       line-height: 1;
+       color: #000000;
+       background-color: #fff;
+       background-clip: padding-box;
+       border: 1px solid #ced4da;
+       border-radius: 0.25rem;
+       transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+       margin-top: 23px;
+       font-weight: bold;
+       margin: auto;
+}
+
+
+
+
+
+
+
+.checkout-btn{
+    margin-top:10px;
+ }
+ .checkout-btn .btn{
+    display: block;
+    text-align: center;
+    /* width: 100%; */
+    font-style: initial;
+    color:#fff ;
+    text-decoration: none;
+ }
+ .checkout-btn .btn-primary{
+     margin:0px !important;
+ }
+
+ #purchase_now {
+   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+   font-weight: bold;
+ }
+
+ #purchase_now p{
+   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+   font-weight: normal;
+ }
+
+ .amazon-btn{
+   margin-top:5px;   
+   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+   font-weight: bold;
+}
+.amazon-btn a{
+   display: block;
+   text-align: center;
+   width: 100%;
+   font-style: initial;
+   margin-top:14px;
+   text-decoration: none;
+   color: #fff;
+   
+}
+.amazon-btn p{   
+   font-weight: bold;
+   color: #000000;
+}
+.amazon-btn .or-line{
+    border-bottom: 2px dashed #535353;
+    position: relative;
+    text-align: center;
+    height:8px;
+    position: relative;
+    font-weight: bold;
+}
+.amazon-btn .or-line span{
+   background:#fff;
+   padding:5px;
+   color:#3A3A3A;
+   font-size: 15px;
+   width: 32px;
+   margin: 0px auto;
+   font-weight: bold;
+   line-height: 17px;
+}
+
+      .form-group {
+         width: 100%;
+         margin-bottom: 7px;
+      }
+
+      .row,
+      .col {
+         width: 100%;
+      }
+
+      .col-6 {
+         width: 48%;
+      }
+
+      .col-8 {
+         width: 70%;
+      }
+
+      .col-4 {
+         width: 135px;
+      }
+      .w-60 {
+         width: 60px;
+        
+      }
+      .w-20 {
+         width: 20px;
+         
+      }
+      .w-20 img{ margin-left:4px;}
+
+      .w-45 {
+         width: 45px;
+        
+      }
+
+      .w-45 .form-control {
+         text-align: center;
+         width: 35px;
+      }
+
+      .w-140 {
+         width: 160px;
+      }
+
+      .w-140 .form-control {
+         text-align: center;
+         width: 148px;
+      }
+
+      .email .form-control {
+         width: 96%;
+      }
+
+      .col .form-control {
+         width: 338px;
+      }
+
+      .w-70 {
+         width: 70px;
+        
+      }
+
+      .w-70 .form-control {
+         text-align: center;
+         width: 60px;
+      }
+
+      .w-90 {
+         width: 90px;
+        
+      }
+      .w-90 .form-control {
+         /* text-align: center; */
+         width: 80px;
+      }
+      .ExpiryDate{
+         width: 91px;
+      }
+     
+      .ExpiryDate .form-control {
+         width: 81px;
+      }
+      .ExpiryDate .row,
+      .cvv .row,
+      .card-number-sec .row{ width:100%;}
+
+      .float-L {
+         float: left;
+      }
+
+      .float-R {
+         float: right;
+      }
+      .text-center{
+         text-align: center;
+      }
+
+      .m-5 {
+         margin-left: 5px;
+         margin-right: 5px;
+      }
+
+      .mB-30 {
+         margin-bottom: 30px;
+      }
+     
+      .mb-0{
+         margin-bottom:0px;
+      }
+
+      .mR-50 {
+         margin-right: 50px;
+      }
+
+      sup {
+         color: #f00;
+      }
+
+      .clear {
+         clear: both;
+      }
+
+      .form-control {
+         display: block;
+         width: 100%;
+         padding:4px;
+         font-size: auto;
+         line-height: 1;
+         color: #495057;
+         background-color: #fff;
+         background-clip: padding-box;
+         border: 1px solid #ced4da;
+         border-radius: 0.25rem;
+         transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      }
+
+      .hyphen {
+         width: 15px;
+         text-align: center;
+         line-height: 24px;
+         float: left;
+      }
+      .hyphen-10 {
+         width: 10px;
+         text-align: center;
+         line-height: 24px;
+         float: left;
+      }
+      .hyphen-22 {
+         width: 22px;
+         text-align: center;
+         line-height: 24px;
+         float: left;
+      }
+
+      .label {
+         font-weight: 700;
+         margin-bottom: 1px;
+         width: 100%;
+         font-size: 12px;
+      }
+
+      .heading {
+         font-size: 15px;
+         margin-top: 13px;
+         margin-bottom: 5px;
+         font-weight: 700;
+         text-transform: capitalize;
+         position: relative;
+      }  
+      .header-sec strong{
+         float:right;
+         color:#a4a4a4;
+         font-size: 11.5px;
+      }
+
+      .header-sec strong:first-child{
+         margin-left:10px;
+         position: relative;
+         right:2px;
+		  color:#029048;
+      }
+      .header-sec strong:last-child{
+         position: absolute;
+         left: 80px;
+		
+		 color:#9E005D;
+      }
+      .heading strong span{
+         /* color:#000; */
+      }
+      .heading strong img{
+         position: relative;
+         top: 4px;
+      }
+      .address .city{width: 120px;}
+      .address .city input{width: 109px;}
+
+      .address .state{width: 135px;}
+      .address .state select {
+         margin:0px;
+         padding-right:0px;
+         width: 135px;
+      }
+      .address .zipcode{width: 73px;}
+      .address .zipcode input{width: 63px;}
+
+      /* .address input {
+         width: 125px;
+      }
+      .address select {
+         margin:0px;
+         padding-right:0px;
+         width: 135px;
+      } */
+
+      .form-check-inline {
+         margin-right: 10px;
+         display: inline-block;
+      }
+
+      .btn-primary {
+        color: #fff;
+        background: #9E005D;
+        margin: 10px 0px;
+        padding:8px 12px;
+        display: inline-block;
+        border-radius: 2px;
+     }
+     .btn-primary:hover {
+        cursor: pointer;
+        background: #5f0038;
+     }
+     .btn-primary span{
+       font-weight: 700;
+     }
+
+     .btn-warning {
+       color: #fff;
+       background-color: #ffb607;
+       border-color: #ffb607;
+       padding:8px 0px;
+       display: inline-block;
+      
+       border-radius: 2px;
+     }
+    .btn-warning:hover{
+       background-color: #d19114;
+     }
+     .btn-warning span{ 
+         color: #000;
+         font-weight: 700;
+       }
+
+      /* The Close Button */
+      /* .close {
+         color: #aaaaaa;
+         float: right;
+         font-size: 28px;
+         font-weight: bold;
+      }
+
+      .close:hover,
+      .close:focus {
+         color: #000;
+         text-decoration: none;
+         cursor: pointer;
+      } */
+
+
+      .close {
+         color: #fff;
+         background-color: #6c757d;
+         margin: 10px 0px;
+         padding:8px 20px;
+         display: inline-block;
+         font-weight: 700;
+         border-radius: 2px;
+        
+      }
+
+      .close:hover {
+         cursor: pointer;
+         background: #333;
+         cursor: pointer;
+      }
+
+
+      .form-check-input {
+         position: relative;
+         margin-top: 0px;
+         margin-left: 0rem;
+         margin-right: 5px;
+      }
+
+      .header-sec {
+         border-bottom: 1px solid #ccc;
+         margin-bottom:5px;
+         font-size: 18px;
+         padding-bottom:5px;
+         text-transform: uppercase;
+        
+      }
+      .header-sec .close{ color:#9e005d;}
+
+      .credit-card-img img {
+         max-height: 15px;
+         margin-right: 5px;
+         margin-top: 5px;
+         margin-bottom: 0px;
+         max-width: 100%;
+      }
+      img.transparent{
+	opacity: 0.2;
+  	filter: alpha(opacity=20); /* For IE8 and earlier */
+}
+
+.mt-0{
+   margin-top:0px;
+}
+.mb-3{
+   margin-bottom:3px;
+}
+
+
+#u33745{
+    height:5px;
+}
+.version-no{
+    position: absolute;
+    right:-75px;
+    top:0px;
+}
+.version-no-u23615-9, .version-no-u24127-9{
+    /* right:0px; */
+}
+.version-no-u24337-9{
+    right:0px;
+    top: 10px;
+}
+.version-no-u24455-9{
+    right:0px;
+    top: 10px;
+}
+
+.version-no-mobile{
+    bottom:0px;
+    color: #fff;
+    top: initial;
+    right: 0px;
+}
+
+
+/* New elements */
+
+#u16734-9 {
+   font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+   min-height: 16px;
+   position: relative;
+   z-index: 272;
+   background-color: transparent;
+}
+
+#u16734-2 {
+   font-weight: bold;
+}
+
+#qty {
+   min-height: 16px;
+   font-style: normal;
+   font-weight: bold;
+   color: #353535;
+   position: relative;
+}
+
+#u16743-9 {
+   position: relative;
+   text-align: center;
+   margin-right: -10000px;
+   font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+   z-index: 249;
+   background-color: transparent;
+}
+
+#u16743-5 {
+   color: #9E005D;
+}
+
+#u16743 {
+   font-weight: bold;  
+}
+
+#u16743-2 {
+   color: #009245;
+}
+
+#u16743-3,
+#u16743-4,
+#u16743-6 {
+   font-weight: bold;
+   color: #009245;
+}
+
+#u16743-7 {
+   color: #006837;
+}
+
+#u20229 {
+   background-color: transparent;
+   position: relative;
+   z-index: 227;
+   margin-right: -10000px;
+}
+
+.product-price .qty-text {
+   min-height: 11px;
+   font-style: normal;
+   font-weight: bold;
+   color: #353535;
+   position: absolute;
+}
+
+.dollar-sign,
+#unitPriceDisplay {
+   font-weight: bold;
+}
+
+
+/* New Breakpoints */
+
+@media (min-width: 1201px),
+   print {#u12323{
+      left: 0px;
+   }
+   }
+
+   .discountcode fieldset {
+      width: 260px;
+      height: 123px;
+  }
+
+  .discountcode fieldset .discount-text{
+   min-height: 15px;
+   line-height: 16px;
+   font-size: 13px;
+  }
+
+   #u16734,
+   #u16734-2 {
+      font-size: 16px;
+      line-height: 32px;
+      width: 118px;
+   }
+
+   #u16734-7 {
+      font-size: 15px;
+      line-height: 20px;
+   }
+
+   .product-price .qty-text {
+      width: 32px;
+      line-height: 19px;
+      font-size: 16px;
+      margin-top: 7px;
+      margin-left: 55px;
+   }
+
+   #u16743-9 {
+      width: 186px;
+      min-height: 49px;
+      font-size: 17px;
+      margin-top: 10px;
+      left: 14.51%;
+   }
+
+   #u16743-5 {
+      line-height: 20px;
+   }
+
+   #u16743-7 {
+      line-height: 26px;
+   }
+
+   .discountcode fieldset select{
+      margin-top: 65px;
+   }
+
+   #purchase_now {
+      font-size: 17px;
+   }
+
+   #purchase_now p {
+      font-size: 16px;
+      line-height: 26px;
+   }
+
+   #u20229 {
+      width: 36px;
+      margin-top: 11px;
+      left: 8.08%;
+   }
+
+   .amazon-btn{
+      font-size: 18px;
+   }
+
+   .amazon-btn p{   
+      font-size: 16px;
+      line-height: 26px;
+   }
+
+   .btn-warning {
+      height: auto;
+   }
+
+
+@media (min-width: 961px) and (max-width: 1200px) {
+   #u33777-4 {
+      top: 62px;
+   }
+  
+   #u1566 {
+   top: 80px;
+    height: 150px;
+   }
+  
+   #u5232-16 {
+    top: 224px;
+      left: 50px;
+      min-height: auto;
+   }
+
+   #u12323 {
+      width: 224px;
+      top: 30px;
+      left: 0px;
+   }
+  
+   .checkout-btn .btn{
+   /* width: 100%; */
+   }
+
+   #u16734-9 {
+      width: 222px;
+      font-size: 14px;
+      margin-top: 1px;
+   }
+
+   #u16734,
+   #u16734-2 {
+      font-size: 14px;
+      line-height: 28px;
+   }
+
+   #u16734-7 {
+      font-size: 13px;
+      line-height: 17px;
+   }
+
+   .product-price {
+      height: 28px;
+   }
+
+   .product-price .qty-text {
+      width: 30px;
+      font-size: 14px;
+      margin-top: 4px;
+      margin-left: 22px;
+   }
+
+   .product-price .qty {
+      font-size: 12px;
+      margin-top: 2px;
+   }
+
+   #u16743-9 {
+      width: 159px;
+      min-height: 38px;
+      font-size: 15px;
+      margin-top: 8px;
+      left: 13.4%;
+   }
+
+   #u16743-5 {
+      line-height: 18px;
+   }
+
+   .discountcode fieldset {
+      width: 222px;
+      height: 118px;
+   }
+
+   .discountcode fieldset select{
+      margin-top: 54px;
+      width: 80%;
+   }
+
+   .discountcode fieldset .discount-text{
+      min-height: 13px;
+      line-height: 14px;
+      font-size: 12px;
+      margin-top: 10px;
+   }
+
+   #purchase_now {
+      font-size: 15px;
+      line-height: 18px;
+   }
+
+   #purchase_now p {
+      font-size: 13px;
+      line-height: 14px;
+   }
+
+   #u20229 {
+      width: 29px;
+      height: 29px;
+      margin-top: 11px;
+      left: 8.56%;
+   }
+
+   #u20229_img {
+      width: 29px;
+      height: 29px;
+   }
+
+   .amazon-btn .or-line span{
+      font-size: 15px;
+   }
+
+   .amazon-btn{
+      font-size: 15px;
+      line-height: 18px;
+   }
+
+   .amazon-btn p{ 
+      font-size: 13px;
+      line-height: 20px;
+   }
+
+   .btn-warning {
+      padding-bottom: 4px;
+   }
+}
+
+@media (min-width: 769px) and (max-width: 960px) {
+   #u12323 {
+      width: 200px;
+      top: 30px;
+      left: 0px;
+   }
+     
+   .checkout-btn .btn{
+      /* width: 100%; */
+   }
+
+   #u16734,
+   #u16734-2,
+   #u16734-3 {
+        font-size: 14px;
+        line-height: 28px;
+   }
+
+   #u16734-9 {
+      width: 200px;
+      font-size: 13px;
+      margin-top: 1px;
+   }
+
+   #u16734-7 {
+      font-size: 13px;
+      line-height: 17px;
+   }
+
+   .discountcode fieldset {
+      width: 199px;
+      height: 109px;
+   }
+
+   .discountcode fieldset select{
+      margin-top: 48px;
+      font-size: 10px;
+   }
+
+
+   .discountcode fieldset .discount-text{
+      min-height: 13px;
+      line-height: 14px;
+      font-size: 12px;
+   }
+
+   #u16743-9 {
+      width: 159px;
+      min-height: 38px;
+      font-size: 15px;
+      margin-top: 6px;
+      left: 12.02%;
+   }
+
+  #u16743-5 {
+      line-height: 18px;
+   }
+
+  #u16743-7 {
+      line-height: 23px;
+   }
+
+   .product-price .qty-text {
+      width: 30px;
+      font-size: 13px;
+      margin-top: 4px;
+      margin-left: 5px;
+   }
+
+   .product-price .qty {
+      font-size: 11px;
+      height: 10px;
+      margin-top: 2px;
+   }
+
+   #purchase_now{      
+      font-size: 14px;
+      line-height: 18px;
+      padding-left: 30px;
+   }
+
+   #purchase_now p{
+      line-height: 14px;
+      font-size: 13px;
+   }
+
+   #u20229 {
+      width: 29px;
+      margin-top: 11px;
+      left: 7.32%;
+   }
+
+   #u20229_img{
+      width: 29px;
+      height: 29px;
+   }
+
+   .amazon-btn .or-line span{
+      font-size: 15px;
+   }
+
+   .amazon-btn{
+      font-size: 15px;
+      line-height: 18px;
+   }
+
+   .amazon-btn p{ 
+      font-size: 13px;
+      line-height: 20px;
+   }
+
+   .btn-warning {
+      padding-bottom: 4px;
+   }
+}
+
+@media (min-width: 581px) and (max-width: 768px) {
+   #u12323 {
+      width: 180px;
+      top: 30px;
+      left: 0px;
+      position: absolute;
+      margin-bottom: 18px;
+   }
+
+   #u16734,
+   #u16734-2 {
+      font-size: 13px;
+      line-height: 14px;
+   }
+
+   #u16734-9 {
+      width: 183px;
+      font-size: 13px;
+      margin-top: 1px;
+   }
+     
+   .product-price{
+      margin-bottom: 0px;
+   }
+     
+   .checkout-btn .btn{
+      /* width: 100%; */
+   }
+
+   .product-price .qty-text {
+      width: 30px;
+      font-size: 11px;
+      margin-top: -2px;
+      margin-left: -8px;
+   }
+
+   .product-price .qty {
+      font-size: 11px;
+      height: 10px;
+      margin-top: -4px;
+   }
+
+   #u16734-7 {
+      font-size: 13px;
+      line-height: 17px;
+   }
+
+   .discountcode fieldset {
+      width: 179px;
+      height: 98px;
+   }
+   
+   .discountcode fieldset select{
+      margin-top: 49px;
+      font-size: 9px;
+      width: 80%;
+   }
+
+   .discountcode fieldset .discount-text{
+      min-height: 13px;
+      line-height: 13px;
+      font-size: 11px;
+   }
+
+   #u16743-9 {
+      width: 159px;
+      min-height: 38px;
+      margin-top: 8px;
+      left: 3.87%;
+      font-size: 14px;
+   }
+
+  #u16743-7 {
+      font-size: 14px;
+      line-height: 21px;
+   }
+
+   #u16743-3 {
+      font-size: 13px;
+      line-height: 16px;
+   }
+
+   #purchase_now{
+      font-size: 14px;  
+      line-height: 14px;   
+      padding-left: 40px; 
+   }
+
+   #purchase_now p{
+      font-size: 12px;
+      line-height: 12px;
+   }
+
+   #u20229 {
+      width: 29px;
+      margin-top: 7px;
+      left: 8.34%;
+   }
+
+   #u20229_img {
+      width: 29px;
+      height: 29px;
+   }
+
+   .amazon-btn .or-line span{
+      font-size: 13px;
+   }
+
+   .amazon-btn{
+      font-size: 14px;
+      line-height: 15px;
+   }
+
+   .amazon-btn p{ 
+      font-size: 12px;
+      line-height: 12px;
+   }
+
+   .btn-warning {
+      margin-bottom: 9px;
+   }
+}
+
+@media (min-width: 481px) and (max-width: 580px) {
+   #u12323 {
+      width: 168px;
+      top: 30px;
+      left: 0px;
+      position: absolute;
+      margin-bottom: 18px;
+   }
+     
+   .product-price{
+      margin-bottom: 0px;
+   }
+     
+   .checkout-btn .btn{
+      /* width: 100%; */
+   }
+
+   .product-price .qty-text {
+      width: 30px;
+      font-size: 11px;
+      margin-top: 4px;
+      margin-left: -10px;
+   }
+
+   .product-price .qty {
+      font-size: 10px;
+      height: 10px;
+   }
+
+   #u16734-7 {
+      font-size: 13px;
+      line-height: 17px;
+   }
+
+   #u16734,
+   #u16734-2 {
+      font-size: 13px;
+      line-height: 26px;
+      width: 107px;
+   }
+
+   .discountcode fieldset {
+      width: 166px;
+      height: 87px;
+   }
+   
+   .discountcode fieldset select{
+      margin-top: 42px;
+      font-size: 9px;
+      width: 85%;
+   }
+
+   .discountcode fieldset .discount-text{
+      min-height: 13px;
+      line-height: 12px;
+      font-size: 10px;
+      margin-top: 6px;
+   }
+
+   #u16743-9 {
+      width: 159px;
+      min-height: 38px;
+      margin-top: 5px;
+      left: 2.98%;
+   }
+
+  #u16743 {
+      font-size: 12px;
+      line-height: 14px;
+   }
+
+   #u16743-3 {
+      font-size: 13px;
+      line-height: 16px;
+   }
+
+   #u16743-7 {
+      font-size: 13px;
+      line-height: 16px;
+   }
+
+   #purchase_now {
+      font-size: 14px;
+      line-height: 14px;
+      padding-left: 40px;
+   }
+
+   #purchase_now p {
+      font-size: 12px;
+      line-height: 12px;
+   }
+
+   #u20229 {
+      width: 29px;
+      margin-top: 7px;
+      left: 6.63%;
+   }
+
+   #u20229_img {
+      width: 29px;
+      height: 29px;
+   }
+
+   .amazon-btn .or-line span{
+      font-size: 13px;
+   }
+
+   .amazon-btn{
+      font-size: 14px;
+      line-height: 15px;
+   }
+
+   .amazon-btn p{ 
+      font-size: 12px;
+      line-height: 12px;
+   }
+
+   .btn-warning {
+      margin-bottom: 9px;
+   }
+}
+
+@media (min-width: 381px) and (max-width: 480px) {
+   #u12323 {
+      width: 160px;
+      top: 30px;
+      left: 0px;
+      position: absolute;
+      margin-bottom: 18px;
+   }
+     
+   .product-price{
+      margin-bottom: 0px;
+   }
+
+   .product-price .qty-text {
+      width: 30px;
+      font-size: 11px;
+      margin-top: 4px;
+      margin-left: -10px;
+   }
+
+   .product-price .qty {
+      font-size: 10px;
+      height: 10px;
+      margin-left: -2px;
+   }
+
+   #u16734-7 {
+      font-size: 13px;
+      line-height: 17px;
+   }
+
+   #u16734,
+   #u16734-2 {
+      font-size: 13px;
+      line-height: 26px;
+      width: 107px;
+   }
+     
+   .checkout-btn .btn{
+      /* width: 100%; */
+   }
+   
+   .discountcode fieldset {
+      width: 159px;
+      height: 87px;
+   }
+   
+   .discountcode fieldset select{
+      margin-top: 42px;
+      font-size: 8px;
+      width: 80%;
+   }
+
+   .discountcode fieldset .discount-text{
+      min-height: 13px;
+      line-height: 12px;
+      font-size: 10px;
+      margin-top: 6px;
+   }
+
+   #u16743-9 {
+      width: 159px;
+      min-height: 38px;
+      margin-top: 5px;
+      left: 2.98%;
+   }
+
+   #u16743-3 {
+      font-size: 13px;
+      line-height: 16px;
+   }
+
+   #u16743 {
+      font-size: 12px;
+      line-height: 14px;
+   }
+
+   #u16743-6 {
+      font-size: 12px;
+      line-height: 18px;
+   }
+
+   #u16743-5,
+    #u16743-7 {
+      line-height: 0px;
+   }
+
+   #purchase_now {
+      font-size: 14px;
+      line-height: 14px;
+      padding-left: 40px;
+   }
+
+   #purchase_now p {
+      font-size: 12px;
+      line-height: 12px;
+   }
+
+   #u20229 {
+      width: 29px;
+      margin-top: 7px;
+      left: 6.63%;
+   }
+
+   #u20229_img {
+      width: 29px;
+      height: 29px;
+   }
+
+   .amazon-btn .or-line span{
+      font-size: 12px;
+   }
+
+   .amazon-btn{
+      font-size: 14px;
+      line-height: 15px;
+   }
+
+   .amazon-btn p{ 
+      font-size: 12px;
+      line-height: 12px;
+   }
+
+   .btn-warning {
+      margin-bottom: 9px;
+   }
+}
+
+@media (max-width: 380px) {
+   #u12323 {
+      width: 154px;
+      top: 30px;
+      left: 0px;
+      position: absolute;
+      margin-bottom: 18px;
+   }
+     
+   .product-price{
+      margin-bottom: 0px;
+   }
+
+   #u16734,
+   #u16734-2 {
+      font-size: 13px;
+      line-height: 26px;
+      width: 107px;
+   }
+
+   #u16734-7 {
+      font-size: 13px;
+      line-height: 17px;
+   }
+
+   .product-price .qty-text {
+      width: 30px;
+      font-size: 11px;
+      margin-top: 4px;
+      margin-left: -15px;
+   }
+
+   .product-price .qty {
+      font-size: 10px;
+      height: 10px;
+      margin-top: 4px;
+   }
+     
+   .checkout-btn .btn{
+      /* width: 100%; */
+   }
+
+   .discountcode fieldset {
+      width: 153px;
+      height: 87px;
+   }
+   
+   .discountcode fieldset select{
+      margin-top: 42px;
+      font-size: 8px;
+      width: 85%;
+   }
+
+   .discountcode fieldset .discount-text{
+      min-height: 13px;
+      line-height: 12px;
+      font-size: 10px;
+   }
+
+   #u16743-9 {
+      width: 159px;
+      min-height: 38px;
+      margin-top: 4px;
+      left: 0px;
+   }
+
+  #u16743 {
+      font-size: 12px;
+      line-height: 14px;
+   }
+
+  #u16743-3 {
+      font-size: 13px;
+      line-height: 16px;
+   }
+
+  #u16743-6 {
+      font-size: 12px;
+      line-height: 18px;
+   }
+
+   #u16743-2,
+   #u16743-4 {
+      line-height: 17px;
+   }
+
+   #u16743-5,
+   #u16743-7 {
+      line-height: 0px;
+      margin-left: -2px;
+   }
+
+   #u20229 {
+      width: 29px;
+      margin-top: 7px;
+      left: 6.63%;
+   }
+
+   #u20229_img {
+      width: 29px;
+      height: 29px;
+   }
+
+   #purchase_now {
+      font-size: 13px;
+      line-height: 14px;
+      padding-left: 40px;
+   }
+
+   #purchase_now p {
+      font-size: 12px;
+      line-height: 12px;
+   }
+
+   .amazon-btn .or-line span{
+      font-size: 10px;
+   }
+
+   .amazon-btn{
+      font-size: 13px;
+      line-height: 14px;
+   }
+
+   .amazon-btn p{ 
+      font-size: 13px;
+      line-height: 14px;
+   }
+
+   .btn-warning {
+      margin-bottom: 9px;
+      height: 26px;
+   }
+}
+
+
+
+
+
+

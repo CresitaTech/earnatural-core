@@ -1,0 +1,6 @@
+CRITICAL - 2023-12-04 14:22:09 --> Call to a member function findAll() on null
+#0 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Test->index()
+#1 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

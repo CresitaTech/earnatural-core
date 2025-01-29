@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html class="nojs html css_verticalspacer" lang="en-US">
+
+<head>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TR4DRBSH');</script>
+<!-- End Google Tag Manager -->
+   <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+   <meta name="generator" content="2018.1.1.386" />
+   <meta name="viewport" content="width=380" />
+
+   <script type="text/javascript">
+      // Update the 'nojs'/'js' class on the html node
+      document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
+
+      // Check that all required assets are uploaded and up-to-date
+      if (typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = { "required": ["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "privacy-policy.css"], "outOfDate": [] };
+   </script>
+
+   <!-- <link rel="canonical" href="http://test.earnatural.com.earnatural.com/payment-form.html" /> -->
+   <title>Checkout</title>
+   <!-- CSS -->
+   <link rel="stylesheet" type="text/css" href="../css/site_global.css?crc=490804418" />
+   <link rel="stylesheet" type="text/css" href="css/privacy-policy.css?crc=493532617" id="pagesheet" />
+   <link rel="stylesheet" type="text/css" href="css/style_phone.css" />
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TR4DRBSH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+   <!-- <div class="loader" id="loader"></div> -->
+   
+
+   <div class="clearfix" id="page">
+      <div class="header-toptext">
+         <p> Ear Natural® is a registered trademark of IPG Natural Health LLC</p>
+         <p>Copyright © 2024, IPG Natural Health - All rights reserved</p>
+      </div>
+      <div class="logo">
+         <span>Patents Issued
+            & Pending</span>
+         <img src="../images/ear_natural_logo_vector_alt-01-u1306-fr.png" />
+      </div>
+
+      <!-- column -->
+      <div class="clearfix colelem" id="pu32952-5">
+         <!-- group -->
+         <a class="nonblock nontext rounded-corners clearfix grpelem" id="u32952-5" href="index.html#main">
+            <!-- content -->
+            <p>&nbsp;</p>
+            <p id="u32952-3">&lt;&lt; Back</p>
+         </a>
+      </div>
+      <div class="clearfix colelem" id="u32950-64">
+         <!-- content -->
+
+         <div class="api-integration-part">
+            <fieldset class='form'>
+               <form id="addressForm" action="" method="POST" data-parsley-validate="">
+			   
+			      <Input type="hidden" id="quantity" name="quantity" value="" />
+               <Input type="hidden" id="unitPrice" name="unitPrice" value="" />
+               <Input type="hidden" id="productName" name="productName" value="" />
+               <Input type="hidden" id="productDesc" name="productDesc" value="" />
+               <Input type="hidden" id="shippingCharge" name="shippingCharge" value="" />
+
+
+                  <div class="header-checkout">
+                     Checkout
+
+                  </div>
+                  <div class="checkout-body">
+
+                     <div class="row ">
+                        <div id="checkbox-errors"></div>
+
+                        <div class="col">
+                           <div class="alert alert-danger" role="alert" id="errorAlert" style="display: none;">
+                           </div>
+                        </div>
+                     </div>
+                     <div>
+                        <div class="row">
+                           <div class="col header-sec">
+                              <h5 class="heading">
+
+
+                                 <strong>
+                                    S/H Fee:
+                                    <span id="shippingChargeDisplay">
+                                    </span>
+                                 </strong>
+                                 <strong>
+                                     <span id="total_amount_display"></span>
+                                 </strong>
+                              </h5>
+                           </div>
+                        </div>
+                        <div class="row form-group">
+                           <div class="card-number-sec">
+                              <div class="label">Card Number <sup>*</sup></div>
+                              <div class="row ">
+                                 <div class="w-170 float-L">
+                                    <input type="text" name="cardNumber"
+                                       class="form-control pl-0 pr-0  text-center inputs cardNumber" id="cardNumber"
+                                       placeholder="XXXX-XXXX-XXXX-XXXX" data-parsley-required
+                                       data-parsley-error-message="Please enter credit card number" />
+                                 </div>
+                                 <div class="w-20 float-L">
+                                    <span id="validCard" style="display: none;">
+                                       <img src="../images/validCard.svg">
+                                    </span>
+                                    <span id="notvalidCard" style="display: none;">
+                                       <img src="../images/notvalidCard.svg">
+                                    </span>
+                                 </div>
+                                 <div class="hyphen-10 ">&nbsp;</div>
+                                 <div class="credit-card-img float-L">
+                                    <!-- <img src="images/crdit-amrican.svg" id="amrican"> -->
+                                    <img src="../images/credit-master.svg" id="mastercard">
+                                    <img src="../images/credit-visa.svg" id="visa">
+                                    <img src="../images/credit-disc.svg" id="discover">
+                                 </div>
+                                 <div class="clear"></div>
+                              </div>
+                           </div>
+                           
+
+                        </div>
+                       
+                        <div class="row ">
+                           <div class="col">
+                              <div class="alert alert-danger mb-15" role="alert" id="errorAmericanCard"
+                                 style="display: none;">
+                                 We do not accept American Express, please enter any visa and master card number.
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row form-group cvv-expirydate-errorMessage">
+                           <div class="w-45 float-L cvv">
+                              <div class="label">CVV <sup>*</sup></div>
+                              <div class="row">
+                                 <input type="text" name="cvv" class="form-control pl-0 pr-0 text-center inputs"
+                                    id="cvv" maxlength="3" placeholder="CVV" data-parsley-required
+                                    data-parsley-error-message="Please enter CVV" />
+                              </div>
+                           </div>
+                           <div class="hyphen-10">&nbsp;</div>
+                           <div class="ExpiryDate float-L">
+                              <div class="label">Expiry Date <sup>*</sup></div>
+                              <div class="row">
+                                 <input type="text" id="inputExpDate" placeholder="MM / YY" minlength='2'
+                                    maxlength='7' class="form-control" data-parsley-required
+                                    data-parsley-error-message="Please enter vaild expiry month and year" />
+                              </div>
+                           </div>
+                           <div class="clear"></div>
+                        </div>
+
+                        <div class="row form-group">
+                           <div class="label">Name on Card <sup>*</sup></div>
+                           <div class="row">
+                              <div class="col">
+                                 <input type="text" name="card_holder_name" id="card_holder_name" class="form-control "  maxlength='25'
+                                    placeholder="Full Name as Displayed on Card" data-parsley-required
+                                    data-parsley-error-message="Please enter card holder name" />
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row form-group">
+                           <div class="row email">
+                              <div class="col">
+                                 <div class="label">Email <sup>*</sup></div>
+                                 <input type="email" data-parsley-type="email" data-parsley-group="paymentForm"
+                                    data-parsley-required name="email" id="email" class="form-control "
+                                    placeholder="Email" data-parsley-error-message="Please enter valid email" />
+                              </div>
+
+                              <div class="clear"></div>
+                           </div>
+                        </div>
+                        <div class="row form-group">
+                           <div class="row email">
+                              <div class="col">
+                                 <div class="label">Confirm Email <sup>*</sup></div>
+                                 <input type="email" id="confirm_email" data-parsley-equalto="#email"
+                                    data-parsley-required class="form-control " placeholder="Confirm Email"
+                                    data-parsley-error-message="Email and confirm email should be same" />
+                              </div>
+                              
+                           </div>
+                        </div>
+                        <div class="row form-group mb-15">
+                           <h5 class="heading mb-0">Enter Billing Address</h5>
+                           <div class="label">Address Line 1</div>
+                           <div class="row">
+                              <div class="col">
+                                 <input type="text" name="address_1" class="form-control  mb-2" id="address_1"  maxlength='30'
+                                    placeholder="Area, Colony or Street" data-parsley-required
+                                    data-parsley-error-message="Please enter billing address" />
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row form-group">
+                           <div class="label">Address Line 2</div>
+                           <div class="row">
+                              <div class="col">
+                                 <input type="text" name="address_2" class="form-control  mb-2" id="address_2"  maxlength='25'
+                                    placeholder="Apartment, Studio or Floor" />
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row form-group address">
+                           <div class="city form-group">
+                              <div class="label">City <sup>*</sup></div>
+                              <input type="text" name="city" class="form-control " id="city" placeholder="City"  maxlength='40'
+                                 data-parsley-required data-parsley-error-message="Please enter city name" />
+                           </div>
+
+                           <div class="state form-group">
+                              <div class="label">State/Region <sup>*</sup></div>
+                              <select class="form-control " name="state" id="state" required
+                                 data-parsley-error-message="Please select state">
+                                 <option value="" selected disabled="true">Select State</option>
+                                 <option value="AL">Alabama</option>
+                                 <option value="AK">Alaska</option>
+                                 <option value="AZ">Arizona</option>
+                                 <option value="AR">Arkansas</option>
+                                 <option value="CA">California</option>
+                                 <option value="CO">Colorado</option>
+                                 <option value="CT">Connecticut</option>
+                                 <option value="DE">Delaware</option>
+                                 <option value="DC">District Of Columbia</option>
+                                 <option value="FL">Florida</option>
+                                 <option value="GA">Georgia</option>
+                                 <option value="HI">Hawaii</option>
+                                 <option value="ID">Idaho</option>
+                                 <option value="IL">Illinois</option>
+                                 <option value="IN">Indiana</option>
+                                 <option value="IA">Iowa</option>
+                                 <option value="KS">Kansas</option>
+                                 <option value="KY">Kentucky</option>
+                                 <option value="LA">Louisiana</option>
+                                 <option value="ME">Maine</option>
+                                 <option value="MD">Maryland</option>
+                                 <option value="MA">Massachusetts</option>
+                                 <option value="MI">Michigan</option>
+                                 <option value="MN">Minnesota</option>
+                                 <option value="MS">Mississippi</option>
+                                 <option value="MO">Missouri</option>
+                                 <option value="MT">Montana</option>
+                                 <option value="NE">Nebraska</option>
+                                 <option value="NV">Nevada</option>
+                                 <option value="NH">New Hampshire</option>
+                                 <option value="NJ">New Jersey</option>
+                                 <option value="NM">New Mexico</option>
+                                 <option value="NY">New York</option>
+                                 <option value="NC">North Carolina</option>
+                                 <option value="ND">North Dakota</option>
+                                 <option value="OH">Ohio</option>
+                                 <option value="OK">Oklahoma</option>
+                                 <option value="OR">Oregon</option>
+                                 <option value="PA">Pennsylvania</option>
+                                 <option value="RI">Rhode Island</option>
+                                 <option value="SC">South Carolina</option>
+                                 <option value="SD">South Dakota</option>
+                                 <option value="TN">Tennessee</option>
+                                 <option value="TX">Texas</option>
+                                 <option value="UT">Utah</option>
+                                 <option value="VT">Vermont</option>
+                                 <option value="VA">Virginia</option>
+                                 <option value="WA">Washington</option>
+                                 <option value="WV">West Virginia</option>
+                                 <option value="WI">Wisconsin</option>
+                                 <option value="WY">Wyoming</option>
+                              </select>
+                           </div>
+
+                           <div class="zipcode">
+                              <div class="label">Zip Code <sup>*</sup></div>
+                              <input type="text" name="zip" class="form-control inputs" id="zip" placeholder="Zip Code"
+                              minlength="5" maxlength="5" data-parsley-required
+                                 data-parsley-error-message="Please enter zip code" />
+                           </div>
+                           <div class="clear"></div>
+                        </div>
+                        <div class="row ">
+                           <h5 class="heading mt-0">Enter Shipping Address</h5>
+                           <div class="row">
+                              <div class="form-check-inline">
+                                 <label class="form-check-label">
+                                    <input type="radio" class="form-check-input optradio" name="optradio" id="optradio"
+                                       value="Same" checked>Same as Billing Address
+                                 </label>
+                              </div>
+                              <div class="form-check-inline">
+                                 <label class="form-check-label">
+                                    <input type="radio" class="form-check-input optradio" name="optradio" id="optradio"
+                                       value="different">Provide Another Address
+                                 </label>
+                              </div>
+                           </div>
+                        </div>
+                        <div id="shipping-address" style="display: none; margin-top:10px;">
+                           <div class="row form-group">
+                              <div class="label">Address Line 1</div>
+                              <div class="row">
+                                 <div class="col">
+                                    <input type="text" name="shipping_address_1" class="form-control  mb-2"  maxlength='30'
+                                       id="shipping_address_1" placeholder="Area, Colony or Street"
+                                       data-parsley-error-message="Please enter shipping address" />
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row form-group">
+                              <div class="label">Address Line 2</div>
+                              <div class="row">
+                                 <div class="col">
+                                    <input type="text" name="shipping_address_2" class="form-control  mb-2"  maxlength='25'
+                                       id="shipping_address_2" placeholder="Apartment, Studio or Floor" />
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row form-group address">
+                              <div class="city form-group">
+                                 <div class="label">City <sup>*</sup></div>
+                                 <input type="text" name="shipping_city" class="form-control " id="shipping_city"  maxlength='40'
+                                    placeholder="City" data-parsley-error-message="Please enter city name" />
+                              </div>
+
+                              <div class="state form-group">
+                                 <div class="label">State/Region <sup>*</sup></div>
+                                 <select class="form-control " name="shipping_state" id="shipping_state"
+                                    data-parsley-error-message="Please select state">
+                                    <option value="" selected disabled="true">Select State</option>
+                                    <option value="AL">Alabama</option>
+                                    <option value="AK">Alaska</option>
+                                    <option value="AZ">Arizona</option>
+                                    <option value="AR">Arkansas</option>
+                                    <option value="CA">California</option>
+                                    <option value="CO">Colorado</option>
+                                    <option value="CT">Connecticut</option>
+                                    <option value="DE">Delaware</option>
+                                    <option value="DC">District Of Columbia</option>
+                                    <option value="FL">Florida</option>
+                                    <option value="GA">Georgia</option>
+                                    <option value="HI">Hawaii</option>
+                                    <option value="ID">Idaho</option>
+                                    <option value="IL">Illinois</option>
+                                    <option value="IN">Indiana</option>
+                                    <option value="IA">Iowa</option>
+                                    <option value="KS">Kansas</option>
+                                    <option value="KY">Kentucky</option>
+                                    <option value="LA">Louisiana</option>
+                                    <option value="ME">Maine</option>
+                                    <option value="MD">Maryland</option>
+                                    <option value="MA">Massachusetts</option>
+                                    <option value="MI">Michigan</option>
+                                    <option value="MN">Minnesota</option>
+                                    <option value="MS">Mississippi</option>
+                                    <option value="MO">Missouri</option>
+                                    <option value="MT">Montana</option>
+                                    <option value="NE">Nebraska</option>
+                                    <option value="NV">Nevada</option>
+                                    <option value="NH">New Hampshire</option>
+                                    <option value="NJ">New Jersey</option>
+                                    <option value="NM">New Mexico</option>
+                                    <option value="NY">New York</option>
+                                    <option value="NC">North Carolina</option>
+                                    <option value="ND">North Dakota</option>
+                                    <option value="OH">Ohio</option>
+                                    <option value="OK">Oklahoma</option>
+                                    <option value="OR">Oregon</option>
+                                    <option value="PA">Pennsylvania</option>
+                                    <option value="RI">Rhode Island</option>
+                                    <option value="SC">South Carolina</option>
+                                    <option value="SD">South Dakota</option>
+                                    <option value="TN">Tennessee</option>
+                                    <option value="TX">Texas</option>
+                                    <option value="UT">Utah</option>
+                                    <option value="VT">Vermont</option>
+                                    <option value="VA">Virginia</option>
+                                    <option value="WA">Washington</option>
+                                    <option value="WV">West Virginia</option>
+                                    <option value="WI">Wisconsin</option>
+                                    <option value="WY">Wyoming</option>
+                                 </select>
+                              </div>
+
+                              <div class="zipcode">
+                                 <div class="label">Zip Code <sup>*</sup></div>
+                                 <input type="text" name="shipping_zip" class="form-control inputs" id="shipping_zip"
+                                    placeholder="Zip Code"minlength="5" maxlength="5"
+                                    data-parsley-error-message="Please enter zip code" />
+                              </div>
+                              <div class="clear"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col">
+                           <button type="button" id="buttonAddress" class="btn btn-primary">Submit</button>
+                           <!-- <button type='reset' id="reset" class="close">Close</button> -->
+                           <a href="index.html#main" class="close">Back</a>
+                        </div>
+                     </div>
+                  </div> <!-- form-checkout body close -->
+               </form>
+            </fieldset>
+         </div>
+
+
+         <!-- Modal for Terms and conditions Pop -->
+         <!-- <div class="modal fade" id="creditCardServiceMessage" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content credit-card-popup-height">
+                  <div class="modal-body mgswidth">
+                     <div class="row">
+                        <div class="col">
+                           <h4 id="creditCardStatus"> </h4>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col mb-4" id="creditCardResponse">
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col mb-4"> Please check your email for your order confirmation. </div>
+                      </div>
+                      <div class="row">
+                        <div class="col mb-4"> Be sure to check your SPAM folder in case you don’t receive your confirmation email from us. </div>
+                      </div>
+                     <div class="row">
+                        <div class="col">
+                           <button type="button" id="allclear" class="btn btn-primary btn-sm" data-dismiss="modal">
+                              Close
+                           </button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div> -->
+		 
+		    <!-- Modal for Terms and conditions Pop -->
+   <!-- <div class="modal fade" id="creditCardServiceErrorMessage" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+         <div class="modal-content credit-card-popup-height">
+            <div class="modal-body mgswidth">
+               <div class="row">
+                  <div class="col">
+                     <h4 id="creditCardErrorStatus"> </h4>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col mb-4" id="creditCardErrorResponse">
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col">
+                     <button type="button" id="error" class="btn btn-primary btn-sm" data-dismiss="modal"> Close
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div> -->
+   
+
+      </div>
+      <div class="verticalspacer" data-offset-top="2021" data-content-above-spacer="2021" data-content-below-spacer="0">
+      </div>
+      
+   </div>
+  
+
+   <script src="../scripts/axios.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="../scripts/bootstrap.min.js"></script>
+   <!-- include another html page in html page -->
+   <script src="../scripts/cleave.min.js"></script>
+   <script src="../scripts/parsley.min.js"></script>
+   <script src="../scripts/axios_api.min.js"></script>
+
+   <script src="../scripts/custom-phone.min.js"></script>
+   
+   
+
+</body>
+
+</html>

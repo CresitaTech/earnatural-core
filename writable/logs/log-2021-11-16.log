@@ -1,0 +1,718 @@
+INFO - 2021-11-16 03:21:54 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 03:21:54 --> empty response:{"CSP":{}}
+CRITICAL - 2021-11-16 03:22:08 --> Undefined property: App\Controllers\Db::$dbforge
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Controllers/Db.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home1/opallgwr...', 14, Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Db->index()
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Db))
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-16 03:22:54 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 03:22:54 --> empty response:{"CSP":{}}
+INFO - 2021-11-16 03:23:11 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 03:23:11 --> empty response:{"CSP":{}}
+INFO - 2021-11-16 03:23:30 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 03:23:30 --> empty response:{"CSP":{}}
+CRITICAL - 2021-11-16 03:23:51 --> Undefined property: App\Controllers\Db::$dbforge
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Controllers/Db.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home1/opallgwr...', 14, Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Db->index()
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Db))
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-16 03:29:19 --> Undefined variable: dbforge
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Controllers/Db.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home1/opallgwr...', 12, Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Db->index()
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Db))
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-16 03:34:45 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 03:34:45 --> empty response:{"CSP":{}}
+INFO - 2021-11-16 03:37:16 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 03:37:16 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637055370,"nbf":1637055380,"exp":1637415370,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 03:37:21 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 03:37:21 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637055370,"nbf":1637055380,"exp":1637415370,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 03:49:39 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 03:49:39 --> empty response:{"CSP":{}}
+INFO - 2021-11-16 03:49:50 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 03:49:50 --> empty response:{"CSP":{}}
+INFO - 2021-11-16 03:49:50 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 03:49:50 --> empty response:{"CSP":{}}
+INFO - 2021-11-16 03:50:21 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 03:50:21 --> empty response:{"CSP":{}}
+INFO - 2021-11-16 03:50:21 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 03:50:21 --> empty response:{"CSP":{}}
+INFO - 2021-11-16 03:52:46 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 03:52:46 --> empty response:{"CSP":{}}
+INFO - 2021-11-16 03:52:46 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 03:52:46 --> empty response:{"CSP":{}}
+INFO - 2021-11-16 03:56:22 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 03:56:22 --> empty response:{"CSP":{}}
+INFO - 2021-11-16 03:56:22 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 03:56:22 --> empty response:{"CSP":{}}
+INFO - 2021-11-16 03:57:49 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 03:57:49 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637056447,"nbf":1637056457,"exp":1637416447,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 03:58:28 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 03:58:28 --> empty response:{"CSP":{}}
+INFO - 2021-11-16 03:58:55 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-16 03:58:55 --> Wrong number of segments
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('undefined', 'sdsa@ewfde$sada...', Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/users/1', 'before')
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-16 03:58:55 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-16 03:58:55 --> Wrong number of segments
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('undefined', 'sdsa@ewfde$sada...', Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/promocodes', 'before')
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-16 03:59:20 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-16 03:59:20 --> Wrong number of segments
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('undefined', 'sdsa@ewfde$sada...', Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/users/1', 'before')
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-16 03:59:20 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-16 03:59:20 --> Wrong number of segments
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('undefined', 'sdsa@ewfde$sada...', Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/promocodes', 'before')
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-16 04:00:32 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 04:00:32 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637056447,"nbf":1637056457,"exp":1637416447,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 04:01:31 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-16 04:01:31 --> Wrong number of segments
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('undefined', 'sdsa@ewfde$sada...', Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/users/1', 'before')
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-16 04:01:31 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-16 04:01:31 --> Wrong number of segments
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('undefined', 'sdsa@ewfde$sada...', Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/promocodes', 'before')
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-16 04:03:54 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-16 04:03:54 --> Wrong number of segments
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('undefined', 'sdsa@ewfde$sada...', Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/promocodes', 'before')
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-16 04:03:54 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-16 04:03:54 --> Wrong number of segments
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('undefined', 'sdsa@ewfde$sada...', Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/users/1', 'before')
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-16 04:04:31 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-16 04:04:31 --> Wrong number of segments
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('undefined', 'sdsa@ewfde$sada...', Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/users/1', 'before')
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-16 04:04:31 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-16 04:04:31 --> Wrong number of segments
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('undefined', 'sdsa@ewfde$sada...', Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/promocodes', 'before')
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-16 04:04:52 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-16 04:04:52 --> Wrong number of segments
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('null', 'sdsa@ewfde$sada...', Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/users/1', 'before')
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-16 04:04:52 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-16 04:04:52 --> Wrong number of segments
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('null', 'sdsa@ewfde$sada...', Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/promocodes', 'before')
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-16 04:06:51 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-16 04:06:51 --> Wrong number of segments
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('null', 'sdsa@ewfde$sada...', Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/promocodes', 'before')
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-16 04:06:51 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-16 04:06:51 --> Wrong number of segments
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('null', 'sdsa@ewfde$sada...', Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/users/1', 'before')
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-16 04:07:16 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-16 04:07:16 --> Wrong number of segments
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('null', 'sdsa@ewfde$sada...', Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/promocodes', 'before')
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-16 04:07:16 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-16 04:07:16 --> Wrong number of segments
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('null', 'sdsa@ewfde$sada...', Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/users/1', 'before')
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-16 04:08:29 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 04:08:29 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637057235,"nbf":1637057245,"exp":1637417235,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 04:08:29 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 04:08:29 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637057235,"nbf":1637057245,"exp":1637417235,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 04:08:51 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-16 04:08:51 --> Cannot handle token prior to 2021-11-16T04:09:01-0600
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'sdsa@ewfde$sada...', Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/users/1', 'before')
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-16 04:08:51 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-16 04:08:51 --> Cannot handle token prior to 2021-11-16T04:09:01-0600
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'sdsa@ewfde$sada...', Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/promocodes', 'before')
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-16 04:09:59 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 04:09:59 --> empty response:{"CSP":{}}
+INFO - 2021-11-16 04:13:54 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 04:13:54 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637057331,"nbf":1637057341,"exp":1637417331,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 04:13:54 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 04:13:54 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637057331,"nbf":1637057341,"exp":1637417331,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 04:14:28 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 04:14:28 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637057331,"nbf":1637057341,"exp":1637417331,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 04:14:28 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 04:14:28 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637057331,"nbf":1637057341,"exp":1637417331,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 04:15:58 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 04:15:58 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637057331,"nbf":1637057341,"exp":1637417331,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 04:15:58 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 04:15:58 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637057331,"nbf":1637057341,"exp":1637417331,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 04:17:18 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 04:17:18 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637057331,"nbf":1637057341,"exp":1637417331,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 04:17:18 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 04:17:18 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637057331,"nbf":1637057341,"exp":1637417331,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 04:17:24 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 04:17:24 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637057331,"nbf":1637057341,"exp":1637417331,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 04:17:24 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 04:17:24 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637057331,"nbf":1637057341,"exp":1637417331,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 04:18:07 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 04:18:07 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637057331,"nbf":1637057341,"exp":1637417331,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 04:18:07 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 04:18:07 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637057331,"nbf":1637057341,"exp":1637417331,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 04:19:10 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 04:19:10 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637057331,"nbf":1637057341,"exp":1637417331,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 04:19:14 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 04:19:14 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637057331,"nbf":1637057341,"exp":1637417331,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 04:19:35 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 04:19:35 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637057331,"nbf":1637057341,"exp":1637417331,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 04:19:51 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 04:19:51 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637057331,"nbf":1637057341,"exp":1637417331,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 04:20:07 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 04:20:07 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637057331,"nbf":1637057341,"exp":1637417331,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 04:20:43 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-16 04:20:43 --> Cannot handle token prior to 2021-11-16T04:20:52-0600
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'sdsa@ewfde$sada...', Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/promocodes', 'before')
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-16 04:22:34 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 04:22:34 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637058042,"nbf":1637058052,"exp":1637418042,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+CRITICAL - 2021-11-16 04:39:35 --> Call to undefined method App\Models\Promocode::count
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Controllers/Promocode.php(163): CodeIgniter\Model->__call('count', Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Promocode->summary()
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Promocode))
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-16 04:40:50 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/home1/opallgwr...', 163, Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/app/Controllers/Promocode.php(163): count(Object(App\Models\Promocode))
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Promocode->summary()
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Promocode))
+#4 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-16 04:41:26 --> Call to undefined method App\Models\Promocode::count
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Controllers/Promocode.php(163): CodeIgniter\Model->__call('count', Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Promocode->summary()
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Promocode))
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-16 04:41:55 --> Call to undefined method App\Models\Promocode::count
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Controllers/Promocode.php(171): CodeIgniter\Model->__call('count', Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Promocode->summary()
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Promocode))
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-16 04:42:38 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/home1/opallgwr...', 171, Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/app/Controllers/Promocode.php(171): count(Object(App\Models\Promocode))
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Promocode->summary()
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Promocode))
+#4 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-16 04:52:58 --> Return value of CodeIgniter\Router\RouteCollection::getFilterForRoute() must be of the type string, array returned
+#0 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/Router/Router.php(162): CodeIgniter\Router\RouteCollection->getFilterForRoute('api/summary')
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('api/summary')
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-16 04:53:32 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 04:53:32 --> empty response:{"CSP":{}}
+INFO - 2021-11-16 04:53:38 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 04:53:38 --> empty response:{"CSP":{}}
+INFO - 2021-11-16 04:53:53 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 04:53:53 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637058576,"nbf":1637058586,"exp":1637418576,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 04:54:09 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 04:54:09 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1636987776,"nbf":1636987786,"exp":1637347776,"data":{"id":"1","name":"admin","email":"admin@gmail.com","phone_number":"9413875686","password":"$2y$10$3dISm64NJSgLUQO4ZrzLS.ed0pniuMjGAdZXxaBrbhx.WpM8hmgBi","created_at":"2021-11-15 09:47:44"}}
+INFO - 2021-11-16 04:54:14 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-16 04:54:14 --> Cannot handle token prior to 2021-11-16T04:54:23-0600
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'sdsa@ewfde$sada...', Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/summary', 'before')
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-16 04:55:35 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 04:55:35 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1636987776,"nbf":1636987786,"exp":1637347776,"data":{"id":"1","name":"admin","email":"admin@gmail.com","phone_number":"9413875686","password":"$2y$10$3dISm64NJSgLUQO4ZrzLS.ed0pniuMjGAdZXxaBrbhx.WpM8hmgBi","created_at":"2021-11-15 09:47:44"}}
+INFO - 2021-11-16 04:55:43 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 04:55:43 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637055370,"nbf":1637055380,"exp":1637415370,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 04:56:55 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 04:56:55 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060053,"nbf":1637060063,"exp":1637420053,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 04:56:55 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 04:56:55 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060053,"nbf":1637060063,"exp":1637420053,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 04:58:31 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 04:58:31 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060053,"nbf":1637060063,"exp":1637420053,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 04:58:31 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 04:58:31 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060053,"nbf":1637060063,"exp":1637420053,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:00:29 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:00:29 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060053,"nbf":1637060063,"exp":1637420053,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:00:29 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:00:29 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060053,"nbf":1637060063,"exp":1637420053,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:01:48 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:01:48 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060053,"nbf":1637060063,"exp":1637420053,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:01:48 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:01:48 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060053,"nbf":1637060063,"exp":1637420053,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:02:13 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:02:13 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060053,"nbf":1637060063,"exp":1637420053,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:02:13 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:02:13 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060053,"nbf":1637060063,"exp":1637420053,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:02:31 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-16 05:02:31 --> Cannot handle token prior to 2021-11-16T05:02:40-0600
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'sdsa@ewfde$sada...', Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/promocodes', 'before')
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-16 05:02:31 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-16 05:02:31 --> Cannot handle token prior to 2021-11-16T05:02:40-0600
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'sdsa@ewfde$sada...', Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/summary', 'before')
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-16 05:03:07 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:03:07 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060550,"nbf":1637060560,"exp":1637420550,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:03:07 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:03:07 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060550,"nbf":1637060560,"exp":1637420550,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:03:11 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:03:11 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060550,"nbf":1637060560,"exp":1637420550,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:03:11 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:03:11 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060550,"nbf":1637060560,"exp":1637420550,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:03:34 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-16 05:03:34 --> Cannot handle token prior to 2021-11-16T05:03:43-0600
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'sdsa@ewfde$sada...', Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/summary', 'before')
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-16 05:03:34 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-16 05:03:34 --> Cannot handle token prior to 2021-11-16T05:03:43-0600
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'sdsa@ewfde$sada...', Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/promocodes', 'before')
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-16 05:05:47 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:05:47 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060550,"nbf":1637060560,"exp":1637420550,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:05:47 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:05:47 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060550,"nbf":1637060560,"exp":1637420550,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:05:47 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:05:47 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060613,"nbf":1637060623,"exp":1637420613,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:05:48 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:05:48 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060613,"nbf":1637060623,"exp":1637420613,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:05:54 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:05:54 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060550,"nbf":1637060560,"exp":1637420550,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:05:54 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:05:54 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060550,"nbf":1637060560,"exp":1637420550,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:07:38 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:07:38 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060550,"nbf":1637060560,"exp":1637420550,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:07:38 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:07:38 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060550,"nbf":1637060560,"exp":1637420550,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:07:38 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:07:38 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060613,"nbf":1637060623,"exp":1637420613,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:07:38 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:07:38 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060613,"nbf":1637060623,"exp":1637420613,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:08:18 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:08:18 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060550,"nbf":1637060560,"exp":1637420550,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:08:18 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:08:18 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060550,"nbf":1637060560,"exp":1637420550,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:08:23 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:08:23 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060550,"nbf":1637060560,"exp":1637420550,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:08:23 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:08:23 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060550,"nbf":1637060560,"exp":1637420550,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:08:26 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:08:26 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060550,"nbf":1637060560,"exp":1637420550,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:08:26 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:08:26 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060550,"nbf":1637060560,"exp":1637420550,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:08:29 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:08:29 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060550,"nbf":1637060560,"exp":1637420550,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:08:29 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:08:29 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060550,"nbf":1637060560,"exp":1637420550,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:08:33 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:08:33 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060550,"nbf":1637060560,"exp":1637420550,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:08:33 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:08:33 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060550,"nbf":1637060560,"exp":1637420550,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:08:36 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:08:36 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060550,"nbf":1637060560,"exp":1637420550,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:08:36 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:08:36 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060550,"nbf":1637060560,"exp":1637420550,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:08:57 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:08:57 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060550,"nbf":1637060560,"exp":1637420550,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:08:57 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:08:57 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060550,"nbf":1637060560,"exp":1637420550,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:09:01 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:09:01 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060550,"nbf":1637060560,"exp":1637420550,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 05:09:01 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 05:09:01 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060550,"nbf":1637060560,"exp":1637420550,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 06:24:22 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 06:24:22 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060613,"nbf":1637060623,"exp":1637420613,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 06:24:22 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 06:24:22 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060613,"nbf":1637060623,"exp":1637420613,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 06:24:28 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 06:24:28 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060613,"nbf":1637060623,"exp":1637420613,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 06:24:28 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 06:24:28 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060613,"nbf":1637060623,"exp":1637420613,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 06:24:33 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 06:24:33 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060613,"nbf":1637060623,"exp":1637420613,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 06:24:33 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 06:24:33 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637060613,"nbf":1637060623,"exp":1637420613,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 21:44:33 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-16 21:44:33 --> Cannot handle token prior to 2021-11-16T21:44:42-0600
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'sdsa@ewfde$sada...', Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/summary', 'before')
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-16 21:44:33 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-16 21:44:33 --> Cannot handle token prior to 2021-11-16T21:44:42-0600
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'sdsa@ewfde$sada...', Array)
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/promocodes', 'before')
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-16 21:45:30 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 21:45:30 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637120672,"nbf":1637120682,"exp":1637480672,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 21:45:30 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 21:45:30 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637120672,"nbf":1637120682,"exp":1637480672,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 21:45:34 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 21:45:34 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637120672,"nbf":1637120682,"exp":1637480672,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 21:45:34 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 21:45:34 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637120672,"nbf":1637120682,"exp":1637480672,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 21:45:38 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 21:45:38 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637120672,"nbf":1637120682,"exp":1637480672,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 21:45:38 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 21:45:38 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637120672,"nbf":1637120682,"exp":1637480672,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 21:46:12 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 21:46:12 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637120672,"nbf":1637120682,"exp":1637480672,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 21:46:12 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 21:46:12 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637120672,"nbf":1637120682,"exp":1637480672,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 21:46:45 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 21:46:45 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637120672,"nbf":1637120682,"exp":1637480672,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 21:46:45 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 21:46:45 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637120672,"nbf":1637120682,"exp":1637480672,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 21:46:49 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 21:46:49 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637120672,"nbf":1637120682,"exp":1637480672,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 21:46:49 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 21:46:49 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637120672,"nbf":1637120682,"exp":1637480672,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 21:49:02 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 21:49:02 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637120672,"nbf":1637120682,"exp":1637480672,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 21:49:02 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 21:49:02 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637120672,"nbf":1637120682,"exp":1637480672,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 21:49:11 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 21:49:11 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637120672,"nbf":1637120682,"exp":1637480672,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 21:49:11 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 21:49:11 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637120672,"nbf":1637120682,"exp":1637480672,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 21:50:46 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 21:50:46 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637120672,"nbf":1637120682,"exp":1637480672,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 21:50:46 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 21:50:46 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637120672,"nbf":1637120682,"exp":1637480672,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 21:51:49 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 21:51:49 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637120672,"nbf":1637120682,"exp":1637480672,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+CRITICAL - 2021-11-16 21:51:49 --> There is no data to insert.
+#0 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#2 /home1/opallgwr/ci.opalliosconsulting.com/app/Controllers/Promocode.php(81): CodeIgniter\Model->insert(Array)
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Promocode->create()
+#4 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Promocode))
+#5 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-11-16 21:52:05 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 21:52:05 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637120672,"nbf":1637120682,"exp":1637480672,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+CRITICAL - 2021-11-16 21:52:05 --> There is no data to insert.
+#0 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#2 /home1/opallgwr/ci.opalliosconsulting.com/app/Controllers/Promocode.php(81): CodeIgniter\Model->insert(Array)
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Promocode->create()
+#4 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Promocode))
+#5 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-11-16 21:59:09 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 21:59:09 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637120672,"nbf":1637120682,"exp":1637480672,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 21:59:10 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 21:59:10 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637120672,"nbf":1637120682,"exp":1637480672,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 21:59:10 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 21:59:10 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637120672,"nbf":1637120682,"exp":1637480672,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 21:59:25 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 21:59:25 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637120672,"nbf":1637120682,"exp":1637480672,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 21:59:25 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 21:59:25 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637120672,"nbf":1637120682,"exp":1637480672,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 21:59:25 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 21:59:25 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637120672,"nbf":1637120682,"exp":1637480672,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 21:59:36 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 21:59:36 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637120672,"nbf":1637120682,"exp":1637480672,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 21:59:36 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 21:59:36 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637120672,"nbf":1637120682,"exp":1637480672,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 22:03:21 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:03:21 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1636987776,"nbf":1636987786,"exp":1637347776,"data":{"id":"1","name":"admin","email":"admin@gmail.com","phone_number":"9413875686","password":"$2y$10$3dISm64NJSgLUQO4ZrzLS.ed0pniuMjGAdZXxaBrbhx.WpM8hmgBi","created_at":"2021-11-15 09:47:44"}}
+ERROR - 2021-11-16 22:03:21 --> This is a token received:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaGVfY2xhaW0iLCJhdWQiOiJUaGVfQXVkIiwiaWF0IjoxNjM2OTg3Nzc2LCJuYmYiOjE2MzY5ODc3ODYsImV4cCI6MTYzNzM0Nzc3NiwiZGF0YSI6eyJpZCI6IjEiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBob25lX251bWJlciI6Ijk0MTM4NzU2ODYiLCJwYXNzd29yZCI6IiQyeSQxMCQzZElTbTY0TkpTZ0xVUU80WnJ6TFMuZWQwcG5pdU1qR0FkWlh4YUJyYmh4LldwTThobWdCaSIsImNyZWF0ZWRfYXQiOiIyMDIxLTExLTE1IDA5OjQ3OjQ0In19.9VpFjoqSB2YBeQ7t05fn5vfbd8B1wEGadkNVRSBBwYk
+INFO - 2021-11-16 22:07:11 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:07:11 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1636987776,"nbf":1636987786,"exp":1637347776,"data":{"id":"1","name":"admin","email":"admin@gmail.com","phone_number":"9413875686","password":"$2y$10$3dISm64NJSgLUQO4ZrzLS.ed0pniuMjGAdZXxaBrbhx.WpM8hmgBi","created_at":"2021-11-15 09:47:44"}}
+ERROR - 2021-11-16 22:07:11 --> This is a token received:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaGVfY2xhaW0iLCJhdWQiOiJUaGVfQXVkIiwiaWF0IjoxNjM2OTg3Nzc2LCJuYmYiOjE2MzY5ODc3ODYsImV4cCI6MTYzNzM0Nzc3NiwiZGF0YSI6eyJpZCI6IjEiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBob25lX251bWJlciI6Ijk0MTM4NzU2ODYiLCJwYXNzd29yZCI6IiQyeSQxMCQzZElTbTY0TkpTZ0xVUU80WnJ6TFMuZWQwcG5pdU1qR0FkWlh4YUJyYmh4LldwTThobWdCaSIsImNyZWF0ZWRfYXQiOiIyMDIxLTExLTE1IDA5OjQ3OjQ0In19.9VpFjoqSB2YBeQ7t05fn5vfbd8B1wEGadkNVRSBBwYk
+CRITICAL - 2021-11-16 22:07:11 --> Cannot use object of type stdClass as array
+#0 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->details()
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+INFO - 2021-11-16 22:07:31 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:07:31 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1636987776,"nbf":1636987786,"exp":1637347776,"data":{"id":"1","name":"admin","email":"admin@gmail.com","phone_number":"9413875686","password":"$2y$10$3dISm64NJSgLUQO4ZrzLS.ed0pniuMjGAdZXxaBrbhx.WpM8hmgBi","created_at":"2021-11-15 09:47:44"}}
+ERROR - 2021-11-16 22:07:31 --> This is a token received:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaGVfY2xhaW0iLCJhdWQiOiJUaGVfQXVkIiwiaWF0IjoxNjM2OTg3Nzc2LCJuYmYiOjE2MzY5ODc3ODYsImV4cCI6MTYzNzM0Nzc3NiwiZGF0YSI6eyJpZCI6IjEiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBob25lX251bWJlciI6Ijk0MTM4NzU2ODYiLCJwYXNzd29yZCI6IiQyeSQxMCQzZElTbTY0TkpTZ0xVUU80WnJ6TFMuZWQwcG5pdU1qR0FkWlh4YUJyYmh4LldwTThobWdCaSIsImNyZWF0ZWRfYXQiOiIyMDIxLTExLTE1IDA5OjQ3OjQ0In19.9VpFjoqSB2YBeQ7t05fn5vfbd8B1wEGadkNVRSBBwYk
+INFO - 2021-11-16 22:07:59 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:07:59 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637122060,"nbf":1637122070,"exp":1637482060,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+ERROR - 2021-11-16 22:07:59 --> This is a token received:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaGVfY2xhaW0iLCJhdWQiOiJUaGVfQXVkIiwiaWF0IjoxNjM3MTIyMDYwLCJuYmYiOjE2MzcxMjIwNzAsImV4cCI6MTYzNzQ4MjA2MCwiZGF0YSI6eyJpZCI6IjEiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJ5JDEwJEJmZFhDdjA4dlhcL3doN1draDVSY28uMGpMNGJ0ZWNxaVFyYVBUd0dMSXp0bW1YLm5QaVZZSyIsInN0YXR1cyI6IkFjdGl2ZSIsImNyZWF0ZWRfYnkiOm51bGwsInVwZGF0ZWRfYnkiOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTExLTEyIDA4OjU4OjM3IiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTIgMDg6NTg6MzcifX0.Bj0PVin__-ztZ8E-PTG8hunzxPZhZnjC-SKjcRdDqWc
+INFO - 2021-11-16 22:08:06 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:08:06 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637122060,"nbf":1637122070,"exp":1637482060,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+ERROR - 2021-11-16 22:08:06 --> This is a token received:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaGVfY2xhaW0iLCJhdWQiOiJUaGVfQXVkIiwiaWF0IjoxNjM3MTIyMDYwLCJuYmYiOjE2MzcxMjIwNzAsImV4cCI6MTYzNzQ4MjA2MCwiZGF0YSI6eyJpZCI6IjEiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJ5JDEwJEJmZFhDdjA4dlhcL3doN1draDVSY28uMGpMNGJ0ZWNxaVFyYVBUd0dMSXp0bW1YLm5QaVZZSyIsInN0YXR1cyI6IkFjdGl2ZSIsImNyZWF0ZWRfYnkiOm51bGwsInVwZGF0ZWRfYnkiOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTExLTEyIDA4OjU4OjM3IiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTIgMDg6NTg6MzcifX0.Bj0PVin__-ztZ8E-PTG8hunzxPZhZnjC-SKjcRdDqWc
+INFO - 2021-11-16 22:09:00 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:09:00 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637122060,"nbf":1637122070,"exp":1637482060,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+ERROR - 2021-11-16 22:09:00 --> This is a token received:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaGVfY2xhaW0iLCJhdWQiOiJUaGVfQXVkIiwiaWF0IjoxNjM3MTIyMDYwLCJuYmYiOjE2MzcxMjIwNzAsImV4cCI6MTYzNzQ4MjA2MCwiZGF0YSI6eyJpZCI6IjEiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJ5JDEwJEJmZFhDdjA4dlhcL3doN1draDVSY28uMGpMNGJ0ZWNxaVFyYVBUd0dMSXp0bW1YLm5QaVZZSyIsInN0YXR1cyI6IkFjdGl2ZSIsImNyZWF0ZWRfYnkiOm51bGwsInVwZGF0ZWRfYnkiOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTExLTEyIDA4OjU4OjM3IiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTIgMDg6NTg6MzcifX0.Bj0PVin__-ztZ8E-PTG8hunzxPZhZnjC-SKjcRdDqWc
+INFO - 2021-11-16 22:09:01 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:09:01 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637122060,"nbf":1637122070,"exp":1637482060,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+ERROR - 2021-11-16 22:09:01 --> This is a token received:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaGVfY2xhaW0iLCJhdWQiOiJUaGVfQXVkIiwiaWF0IjoxNjM3MTIyMDYwLCJuYmYiOjE2MzcxMjIwNzAsImV4cCI6MTYzNzQ4MjA2MCwiZGF0YSI6eyJpZCI6IjEiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJ5JDEwJEJmZFhDdjA4dlhcL3doN1draDVSY28uMGpMNGJ0ZWNxaVFyYVBUd0dMSXp0bW1YLm5QaVZZSyIsInN0YXR1cyI6IkFjdGl2ZSIsImNyZWF0ZWRfYnkiOm51bGwsInVwZGF0ZWRfYnkiOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTExLTEyIDA4OjU4OjM3IiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTIgMDg6NTg6MzcifX0.Bj0PVin__-ztZ8E-PTG8hunzxPZhZnjC-SKjcRdDqWc
+INFO - 2021-11-16 22:09:30 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:09:30 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637122152,"nbf":1637122162,"exp":1637482152,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+ERROR - 2021-11-16 22:09:30 --> This is a token received:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaGVfY2xhaW0iLCJhdWQiOiJUaGVfQXVkIiwiaWF0IjoxNjM3MTIyMTUyLCJuYmYiOjE2MzcxMjIxNjIsImV4cCI6MTYzNzQ4MjE1MiwiZGF0YSI6eyJpZCI6IjEiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJ5JDEwJEJmZFhDdjA4dlhcL3doN1draDVSY28uMGpMNGJ0ZWNxaVFyYVBUd0dMSXp0bW1YLm5QaVZZSyIsInN0YXR1cyI6IkFjdGl2ZSIsImNyZWF0ZWRfYnkiOm51bGwsInVwZGF0ZWRfYnkiOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTExLTEyIDA4OjU4OjM3IiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTIgMDg6NTg6MzcifX0.gOqv-siyFSdbpHBPBaiBJLqhJm2_0DmnTmHTGTxGrJI
+INFO - 2021-11-16 22:09:32 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:09:32 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637122152,"nbf":1637122162,"exp":1637482152,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+ERROR - 2021-11-16 22:09:32 --> This is a token received:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaGVfY2xhaW0iLCJhdWQiOiJUaGVfQXVkIiwiaWF0IjoxNjM3MTIyMTUyLCJuYmYiOjE2MzcxMjIxNjIsImV4cCI6MTYzNzQ4MjE1MiwiZGF0YSI6eyJpZCI6IjEiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJ5JDEwJEJmZFhDdjA4dlhcL3doN1draDVSY28uMGpMNGJ0ZWNxaVFyYVBUd0dMSXp0bW1YLm5QaVZZSyIsInN0YXR1cyI6IkFjdGl2ZSIsImNyZWF0ZWRfYnkiOm51bGwsInVwZGF0ZWRfYnkiOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTExLTEyIDA4OjU4OjM3IiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTIgMDg6NTg6MzcifX0.gOqv-siyFSdbpHBPBaiBJLqhJm2_0DmnTmHTGTxGrJI
+INFO - 2021-11-16 22:09:39 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:09:39 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637122152,"nbf":1637122162,"exp":1637482152,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+ERROR - 2021-11-16 22:09:39 --> This is a token received:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaGVfY2xhaW0iLCJhdWQiOiJUaGVfQXVkIiwiaWF0IjoxNjM3MTIyMTUyLCJuYmYiOjE2MzcxMjIxNjIsImV4cCI6MTYzNzQ4MjE1MiwiZGF0YSI6eyJpZCI6IjEiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJ5JDEwJEJmZFhDdjA4dlhcL3doN1draDVSY28uMGpMNGJ0ZWNxaVFyYVBUd0dMSXp0bW1YLm5QaVZZSyIsInN0YXR1cyI6IkFjdGl2ZSIsImNyZWF0ZWRfYnkiOm51bGwsInVwZGF0ZWRfYnkiOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTExLTEyIDA4OjU4OjM3IiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTIgMDg6NTg6MzcifX0.gOqv-siyFSdbpHBPBaiBJLqhJm2_0DmnTmHTGTxGrJI
+INFO - 2021-11-16 22:09:41 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:09:41 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637122152,"nbf":1637122162,"exp":1637482152,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+ERROR - 2021-11-16 22:09:41 --> This is a token received:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaGVfY2xhaW0iLCJhdWQiOiJUaGVfQXVkIiwiaWF0IjoxNjM3MTIyMTUyLCJuYmYiOjE2MzcxMjIxNjIsImV4cCI6MTYzNzQ4MjE1MiwiZGF0YSI6eyJpZCI6IjEiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJ5JDEwJEJmZFhDdjA4dlhcL3doN1draDVSY28uMGpMNGJ0ZWNxaVFyYVBUd0dMSXp0bW1YLm5QaVZZSyIsInN0YXR1cyI6IkFjdGl2ZSIsImNyZWF0ZWRfYnkiOm51bGwsInVwZGF0ZWRfYnkiOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTExLTEyIDA4OjU4OjM3IiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTIgMDg6NTg6MzcifX0.gOqv-siyFSdbpHBPBaiBJLqhJm2_0DmnTmHTGTxGrJI
+INFO - 2021-11-16 22:09:47 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:09:47 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637122152,"nbf":1637122162,"exp":1637482152,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+ERROR - 2021-11-16 22:09:47 --> This is a token received:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaGVfY2xhaW0iLCJhdWQiOiJUaGVfQXVkIiwiaWF0IjoxNjM3MTIyMTUyLCJuYmYiOjE2MzcxMjIxNjIsImV4cCI6MTYzNzQ4MjE1MiwiZGF0YSI6eyJpZCI6IjEiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJ5JDEwJEJmZFhDdjA4dlhcL3doN1draDVSY28uMGpMNGJ0ZWNxaVFyYVBUd0dMSXp0bW1YLm5QaVZZSyIsInN0YXR1cyI6IkFjdGl2ZSIsImNyZWF0ZWRfYnkiOm51bGwsInVwZGF0ZWRfYnkiOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTExLTEyIDA4OjU4OjM3IiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTIgMDg6NTg6MzcifX0.gOqv-siyFSdbpHBPBaiBJLqhJm2_0DmnTmHTGTxGrJI
+INFO - 2021-11-16 22:10:11 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:10:11 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637055370,"nbf":1637055380,"exp":1637415370,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 22:10:13 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:10:13 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637055370,"nbf":1637055380,"exp":1637415370,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 22:10:14 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:10:14 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637055370,"nbf":1637055380,"exp":1637415370,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 22:10:14 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:10:14 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637055370,"nbf":1637055380,"exp":1637415370,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 22:10:15 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:10:15 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637055370,"nbf":1637055380,"exp":1637415370,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 22:10:16 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:10:16 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637055370,"nbf":1637055380,"exp":1637415370,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 22:10:17 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:10:17 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637055370,"nbf":1637055380,"exp":1637415370,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 22:10:18 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:10:18 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637055370,"nbf":1637055380,"exp":1637415370,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+INFO - 2021-11-16 22:11:08 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:11:08 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637122152,"nbf":1637122162,"exp":1637482152,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+ERROR - 2021-11-16 22:11:08 --> This is a token received:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaGVfY2xhaW0iLCJhdWQiOiJUaGVfQXVkIiwiaWF0IjoxNjM3MTIyMTUyLCJuYmYiOjE2MzcxMjIxNjIsImV4cCI6MTYzNzQ4MjE1MiwiZGF0YSI6eyJpZCI6IjEiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJ5JDEwJEJmZFhDdjA4dlhcL3doN1draDVSY28uMGpMNGJ0ZWNxaVFyYVBUd0dMSXp0bW1YLm5QaVZZSyIsInN0YXR1cyI6IkFjdGl2ZSIsImNyZWF0ZWRfYnkiOm51bGwsInVwZGF0ZWRfYnkiOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTExLTEyIDA4OjU4OjM3IiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTIgMDg6NTg6MzcifX0.gOqv-siyFSdbpHBPBaiBJLqhJm2_0DmnTmHTGTxGrJI
+INFO - 2021-11-16 22:11:10 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:11:10 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637122152,"nbf":1637122162,"exp":1637482152,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+ERROR - 2021-11-16 22:11:10 --> This is a token received:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaGVfY2xhaW0iLCJhdWQiOiJUaGVfQXVkIiwiaWF0IjoxNjM3MTIyMTUyLCJuYmYiOjE2MzcxMjIxNjIsImV4cCI6MTYzNzQ4MjE1MiwiZGF0YSI6eyJpZCI6IjEiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJ5JDEwJEJmZFhDdjA4dlhcL3doN1draDVSY28uMGpMNGJ0ZWNxaVFyYVBUd0dMSXp0bW1YLm5QaVZZSyIsInN0YXR1cyI6IkFjdGl2ZSIsImNyZWF0ZWRfYnkiOm51bGwsInVwZGF0ZWRfYnkiOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTExLTEyIDA4OjU4OjM3IiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTIgMDg6NTg6MzcifX0.gOqv-siyFSdbpHBPBaiBJLqhJm2_0DmnTmHTGTxGrJI
+INFO - 2021-11-16 22:11:11 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:11:11 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637122152,"nbf":1637122162,"exp":1637482152,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+ERROR - 2021-11-16 22:11:11 --> This is a token received:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaGVfY2xhaW0iLCJhdWQiOiJUaGVfQXVkIiwiaWF0IjoxNjM3MTIyMTUyLCJuYmYiOjE2MzcxMjIxNjIsImV4cCI6MTYzNzQ4MjE1MiwiZGF0YSI6eyJpZCI6IjEiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJ5JDEwJEJmZFhDdjA4dlhcL3doN1draDVSY28uMGpMNGJ0ZWNxaVFyYVBUd0dMSXp0bW1YLm5QaVZZSyIsInN0YXR1cyI6IkFjdGl2ZSIsImNyZWF0ZWRfYnkiOm51bGwsInVwZGF0ZWRfYnkiOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTExLTEyIDA4OjU4OjM3IiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTIgMDg6NTg6MzcifX0.gOqv-siyFSdbpHBPBaiBJLqhJm2_0DmnTmHTGTxGrJI
+INFO - 2021-11-16 22:11:12 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:11:12 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637122152,"nbf":1637122162,"exp":1637482152,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+ERROR - 2021-11-16 22:11:12 --> This is a token received:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaGVfY2xhaW0iLCJhdWQiOiJUaGVfQXVkIiwiaWF0IjoxNjM3MTIyMTUyLCJuYmYiOjE2MzcxMjIxNjIsImV4cCI6MTYzNzQ4MjE1MiwiZGF0YSI6eyJpZCI6IjEiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJ5JDEwJEJmZFhDdjA4dlhcL3doN1draDVSY28uMGpMNGJ0ZWNxaVFyYVBUd0dMSXp0bW1YLm5QaVZZSyIsInN0YXR1cyI6IkFjdGl2ZSIsImNyZWF0ZWRfYnkiOm51bGwsInVwZGF0ZWRfYnkiOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTExLTEyIDA4OjU4OjM3IiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTIgMDg6NTg6MzcifX0.gOqv-siyFSdbpHBPBaiBJLqhJm2_0DmnTmHTGTxGrJI
+INFO - 2021-11-16 22:11:14 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:11:14 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637122152,"nbf":1637122162,"exp":1637482152,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+ERROR - 2021-11-16 22:11:14 --> This is a token received:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaGVfY2xhaW0iLCJhdWQiOiJUaGVfQXVkIiwiaWF0IjoxNjM3MTIyMTUyLCJuYmYiOjE2MzcxMjIxNjIsImV4cCI6MTYzNzQ4MjE1MiwiZGF0YSI6eyJpZCI6IjEiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJ5JDEwJEJmZFhDdjA4dlhcL3doN1draDVSY28uMGpMNGJ0ZWNxaVFyYVBUd0dMSXp0bW1YLm5QaVZZSyIsInN0YXR1cyI6IkFjdGl2ZSIsImNyZWF0ZWRfYnkiOm51bGwsInVwZGF0ZWRfYnkiOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTExLTEyIDA4OjU4OjM3IiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTIgMDg6NTg6MzcifX0.gOqv-siyFSdbpHBPBaiBJLqhJm2_0DmnTmHTGTxGrJI
+INFO - 2021-11-16 22:11:38 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:11:38 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637122152,"nbf":1637122162,"exp":1637482152,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+ERROR - 2021-11-16 22:11:38 --> This is a token received:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaGVfY2xhaW0iLCJhdWQiOiJUaGVfQXVkIiwiaWF0IjoxNjM3MTIyMTUyLCJuYmYiOjE2MzcxMjIxNjIsImV4cCI6MTYzNzQ4MjE1MiwiZGF0YSI6eyJpZCI6IjEiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJ5JDEwJEJmZFhDdjA4dlhcL3doN1draDVSY28uMGpMNGJ0ZWNxaVFyYVBUd0dMSXp0bW1YLm5QaVZZSyIsInN0YXR1cyI6IkFjdGl2ZSIsImNyZWF0ZWRfYnkiOm51bGwsInVwZGF0ZWRfYnkiOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTExLTEyIDA4OjU4OjM3IiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTIgMDg6NTg6MzcifX0.gOqv-siyFSdbpHBPBaiBJLqhJm2_0DmnTmHTGTxGrJI
+INFO - 2021-11-16 22:13:09 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:13:09 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637122152,"nbf":1637122162,"exp":1637482152,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+ERROR - 2021-11-16 22:13:09 --> This is a token received:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaGVfY2xhaW0iLCJhdWQiOiJUaGVfQXVkIiwiaWF0IjoxNjM3MTIyMTUyLCJuYmYiOjE2MzcxMjIxNjIsImV4cCI6MTYzNzQ4MjE1MiwiZGF0YSI6eyJpZCI6IjEiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJ5JDEwJEJmZFhDdjA4dlhcL3doN1draDVSY28uMGpMNGJ0ZWNxaVFyYVBUd0dMSXp0bW1YLm5QaVZZSyIsInN0YXR1cyI6IkFjdGl2ZSIsImNyZWF0ZWRfYnkiOm51bGwsInVwZGF0ZWRfYnkiOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTExLTEyIDA4OjU4OjM3IiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTIgMDg6NTg6MzcifX0.gOqv-siyFSdbpHBPBaiBJLqhJm2_0DmnTmHTGTxGrJI
+INFO - 2021-11-16 22:13:33 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:13:33 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637122152,"nbf":1637122162,"exp":1637482152,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+ERROR - 2021-11-16 22:13:33 --> This is a token received:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaGVfY2xhaW0iLCJhdWQiOiJUaGVfQXVkIiwiaWF0IjoxNjM3MTIyMTUyLCJuYmYiOjE2MzcxMjIxNjIsImV4cCI6MTYzNzQ4MjE1MiwiZGF0YSI6eyJpZCI6IjEiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJ5JDEwJEJmZFhDdjA4dlhcL3doN1draDVSY28uMGpMNGJ0ZWNxaVFyYVBUd0dMSXp0bW1YLm5QaVZZSyIsInN0YXR1cyI6IkFjdGl2ZSIsImNyZWF0ZWRfYnkiOm51bGwsInVwZGF0ZWRfYnkiOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTExLTEyIDA4OjU4OjM3IiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTIgMDg6NTg6MzcifX0.gOqv-siyFSdbpHBPBaiBJLqhJm2_0DmnTmHTGTxGrJI
+CRITICAL - 2021-11-16 22:13:33 --> Call to undefined function App\Controllers\type()
+#0 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->details()
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+INFO - 2021-11-16 22:13:44 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:13:44 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637122152,"nbf":1637122162,"exp":1637482152,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+ERROR - 2021-11-16 22:13:44 --> This is a token received:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaGVfY2xhaW0iLCJhdWQiOiJUaGVfQXVkIiwiaWF0IjoxNjM3MTIyMTUyLCJuYmYiOjE2MzcxMjIxNjIsImV4cCI6MTYzNzQ4MjE1MiwiZGF0YSI6eyJpZCI6IjEiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJ5JDEwJEJmZFhDdjA4dlhcL3doN1draDVSY28uMGpMNGJ0ZWNxaVFyYVBUd0dMSXp0bW1YLm5QaVZZSyIsInN0YXR1cyI6IkFjdGl2ZSIsImNyZWF0ZWRfYnkiOm51bGwsInVwZGF0ZWRfYnkiOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTExLTEyIDA4OjU4OjM3IiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTIgMDg6NTg6MzcifX0.gOqv-siyFSdbpHBPBaiBJLqhJm2_0DmnTmHTGTxGrJI
+CRITICAL - 2021-11-16 22:13:44 --> Call to undefined function App\Controllers\typeof()
+#0 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->details()
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+INFO - 2021-11-16 22:15:44 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:15:44 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637122152,"nbf":1637122162,"exp":1637482152,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+ERROR - 2021-11-16 22:15:44 --> This is a token received:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaGVfY2xhaW0iLCJhdWQiOiJUaGVfQXVkIiwiaWF0IjoxNjM3MTIyMTUyLCJuYmYiOjE2MzcxMjIxNjIsImV4cCI6MTYzNzQ4MjE1MiwiZGF0YSI6eyJpZCI6IjEiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJ5JDEwJEJmZFhDdjA4dlhcL3doN1draDVSY28uMGpMNGJ0ZWNxaVFyYVBUd0dMSXp0bW1YLm5QaVZZSyIsInN0YXR1cyI6IkFjdGl2ZSIsImNyZWF0ZWRfYnkiOm51bGwsInVwZGF0ZWRfYnkiOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTExLTEyIDA4OjU4OjM3IiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTIgMDg6NTg6MzcifX0.gOqv-siyFSdbpHBPBaiBJLqhJm2_0DmnTmHTGTxGrJI
+INFO - 2021-11-16 22:16:54 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:16:54 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637122152,"nbf":1637122162,"exp":1637482152,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+ERROR - 2021-11-16 22:16:54 --> This is a token received:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaGVfY2xhaW0iLCJhdWQiOiJUaGVfQXVkIiwiaWF0IjoxNjM3MTIyMTUyLCJuYmYiOjE2MzcxMjIxNjIsImV4cCI6MTYzNzQ4MjE1MiwiZGF0YSI6eyJpZCI6IjEiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJ5JDEwJEJmZFhDdjA4dlhcL3doN1draDVSY28uMGpMNGJ0ZWNxaVFyYVBUd0dMSXp0bW1YLm5QaVZZSyIsInN0YXR1cyI6IkFjdGl2ZSIsImNyZWF0ZWRfYnkiOm51bGwsInVwZGF0ZWRfYnkiOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTExLTEyIDA4OjU4OjM3IiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTIgMDg6NTg6MzcifX0.gOqv-siyFSdbpHBPBaiBJLqhJm2_0DmnTmHTGTxGrJI
+INFO - 2021-11-16 22:20:15 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:20:15 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637122152,"nbf":1637122162,"exp":1637482152,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+CRITICAL - 2021-11-16 22:20:15 --> Cannot declare class Common, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2021-11-16 22:22:01 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:22:01 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637122152,"nbf":1637122162,"exp":1637482152,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+CRITICAL - 2021-11-16 22:22:01 --> Cannot redeclare post_json() (previously declared in /home1/opallgwr/ci.opalliosconsulting.com/app/Common.php:21)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2021-11-16 22:23:52 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:23:52 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637122152,"nbf":1637122162,"exp":1637482152,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+CRITICAL - 2021-11-16 22:23:52 --> Cannot redeclare get_current_user_id() (previously declared in /home1/opallgwr/ci.opalliosconsulting.com/app/Common.php:20)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2021-11-16 22:25:04 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:25:04 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637122152,"nbf":1637122162,"exp":1637482152,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+CRITICAL - 2021-11-16 22:25:04 --> Cannot declare class CommonA, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2021-11-16 22:25:32 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:25:32 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637122152,"nbf":1637122162,"exp":1637482152,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+ERROR - 2021-11-16 22:25:32 --> This is a token received:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaGVfY2xhaW0iLCJhdWQiOiJUaGVfQXVkIiwiaWF0IjoxNjM3MTIyMTUyLCJuYmYiOjE2MzcxMjIxNjIsImV4cCI6MTYzNzQ4MjE1MiwiZGF0YSI6eyJpZCI6IjEiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJ5JDEwJEJmZFhDdjA4dlhcL3doN1draDVSY28uMGpMNGJ0ZWNxaVFyYVBUd0dMSXp0bW1YLm5QaVZZSyIsInN0YXR1cyI6IkFjdGl2ZSIsImNyZWF0ZWRfYnkiOm51bGwsInVwZGF0ZWRfYnkiOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTExLTEyIDA4OjU4OjM3IiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTIgMDg6NTg6MzcifX0.gOqv-siyFSdbpHBPBaiBJLqhJm2_0DmnTmHTGTxGrJI
+CRITICAL - 2021-11-16 22:25:32 --> Cannot use object of type stdClass as array
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Controllers/User.php(225): App\Controllers\User->get_current_user_id('Bearer eyJ0eXAi...')
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->details()
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-16 22:26:34 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:26:34 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637122152,"nbf":1637122162,"exp":1637482152,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+ERROR - 2021-11-16 22:26:34 --> This is a token received:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaGVfY2xhaW0iLCJhdWQiOiJUaGVfQXVkIiwiaWF0IjoxNjM3MTIyMTUyLCJuYmYiOjE2MzcxMjIxNjIsImV4cCI6MTYzNzQ4MjE1MiwiZGF0YSI6eyJpZCI6IjEiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJ5JDEwJEJmZFhDdjA4dlhcL3doN1draDVSY28uMGpMNGJ0ZWNxaVFyYVBUd0dMSXp0bW1YLm5QaVZZSyIsInN0YXR1cyI6IkFjdGl2ZSIsImNyZWF0ZWRfYnkiOm51bGwsInVwZGF0ZWRfYnkiOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTExLTEyIDA4OjU4OjM3IiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTIgMDg6NTg6MzcifX0.gOqv-siyFSdbpHBPBaiBJLqhJm2_0DmnTmHTGTxGrJI
+INFO - 2021-11-16 22:34:26 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:34:26 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637122152,"nbf":1637122162,"exp":1637482152,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+ERROR - 2021-11-16 22:34:26 --> This is a token received:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaGVfY2xhaW0iLCJhdWQiOiJUaGVfQXVkIiwiaWF0IjoxNjM3MTIyMTUyLCJuYmYiOjE2MzcxMjIxNjIsImV4cCI6MTYzNzQ4MjE1MiwiZGF0YSI6eyJpZCI6IjEiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJ5JDEwJEJmZFhDdjA4dlhcL3doN1draDVSY28uMGpMNGJ0ZWNxaVFyYVBUd0dMSXp0bW1YLm5QaVZZSyIsInN0YXR1cyI6IkFjdGl2ZSIsImNyZWF0ZWRfYnkiOm51bGwsInVwZGF0ZWRfYnkiOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTExLTEyIDA4OjU4OjM3IiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTIgMDg6NTg6MzcifX0.gOqv-siyFSdbpHBPBaiBJLqhJm2_0DmnTmHTGTxGrJI
+CRITICAL - 2021-11-16 22:34:26 --> Class 'Utils' not found
+#0 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->details()
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+INFO - 2021-11-16 22:34:32 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:34:32 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637122152,"nbf":1637122162,"exp":1637482152,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+ERROR - 2021-11-16 22:34:32 --> This is a token received:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaGVfY2xhaW0iLCJhdWQiOiJUaGVfQXVkIiwiaWF0IjoxNjM3MTIyMTUyLCJuYmYiOjE2MzcxMjIxNjIsImV4cCI6MTYzNzQ4MjE1MiwiZGF0YSI6eyJpZCI6IjEiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJ5JDEwJEJmZFhDdjA4dlhcL3doN1draDVSY28uMGpMNGJ0ZWNxaVFyYVBUd0dMSXp0bW1YLm5QaVZZSyIsInN0YXR1cyI6IkFjdGl2ZSIsImNyZWF0ZWRfYnkiOm51bGwsInVwZGF0ZWRfYnkiOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTExLTEyIDA4OjU4OjM3IiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTIgMDg6NTg6MzcifX0.gOqv-siyFSdbpHBPBaiBJLqhJm2_0DmnTmHTGTxGrJI
+CRITICAL - 2021-11-16 22:34:32 --> Class 'Utils' not found
+#0 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->details()
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+INFO - 2021-11-16 22:37:48 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:37:48 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637122152,"nbf":1637122162,"exp":1637482152,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+ERROR - 2021-11-16 22:37:48 --> This is a token received:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaGVfY2xhaW0iLCJhdWQiOiJUaGVfQXVkIiwiaWF0IjoxNjM3MTIyMTUyLCJuYmYiOjE2MzcxMjIxNjIsImV4cCI6MTYzNzQ4MjE1MiwiZGF0YSI6eyJpZCI6IjEiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJ5JDEwJEJmZFhDdjA4dlhcL3doN1draDVSY28uMGpMNGJ0ZWNxaVFyYVBUd0dMSXp0bW1YLm5QaVZZSyIsInN0YXR1cyI6IkFjdGl2ZSIsImNyZWF0ZWRfYnkiOm51bGwsInVwZGF0ZWRfYnkiOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTExLTEyIDA4OjU4OjM3IiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTIgMDg6NTg6MzcifX0.gOqv-siyFSdbpHBPBaiBJLqhJm2_0DmnTmHTGTxGrJI
+CRITICAL - 2021-11-16 22:37:48 --> Class 'Utils' not found
+#0 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->details()
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+INFO - 2021-11-16 22:40:19 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:40:19 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637122152,"nbf":1637122162,"exp":1637482152,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+ERROR - 2021-11-16 22:40:19 --> This is a token received:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaGVfY2xhaW0iLCJhdWQiOiJUaGVfQXVkIiwiaWF0IjoxNjM3MTIyMTUyLCJuYmYiOjE2MzcxMjIxNjIsImV4cCI6MTYzNzQ4MjE1MiwiZGF0YSI6eyJpZCI6IjEiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJ5JDEwJEJmZFhDdjA4dlhcL3doN1draDVSY28uMGpMNGJ0ZWNxaVFyYVBUd0dMSXp0bW1YLm5QaVZZSyIsInN0YXR1cyI6IkFjdGl2ZSIsImNyZWF0ZWRfYnkiOm51bGwsInVwZGF0ZWRfYnkiOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTExLTEyIDA4OjU4OjM3IiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTIgMDg6NTg6MzcifX0.gOqv-siyFSdbpHBPBaiBJLqhJm2_0DmnTmHTGTxGrJI
+CRITICAL - 2021-11-16 22:40:19 --> Class 'App\Libraries\JWT' not found
+#0 /home1/opallgwr/ci.opalliosconsulting.com/app/Controllers/User.php(226): App\Libraries\Utils->get_current_user_id('Bearer eyJ0eXAi...')
+#1 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->details()
+#2 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 /home1/opallgwr/ci.opalliosconsulting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/opallgwr/ci.opalliosconsulting.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-16 22:40:54 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:40:54 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637122152,"nbf":1637122162,"exp":1637482152,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+ERROR - 2021-11-16 22:40:54 --> This is a token received:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaGVfY2xhaW0iLCJhdWQiOiJUaGVfQXVkIiwiaWF0IjoxNjM3MTIyMTUyLCJuYmYiOjE2MzcxMjIxNjIsImV4cCI6MTYzNzQ4MjE1MiwiZGF0YSI6eyJpZCI6IjEiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJ5JDEwJEJmZFhDdjA4dlhcL3doN1draDVSY28uMGpMNGJ0ZWNxaVFyYVBUd0dMSXp0bW1YLm5QaVZZSyIsInN0YXR1cyI6IkFjdGl2ZSIsImNyZWF0ZWRfYnkiOm51bGwsInVwZGF0ZWRfYnkiOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTExLTEyIDA4OjU4OjM3IiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTIgMDg6NTg6MzcifX0.gOqv-siyFSdbpHBPBaiBJLqhJm2_0DmnTmHTGTxGrJI
+INFO - 2021-11-16 22:41:27 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 22:41:27 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637122152,"nbf":1637122162,"exp":1637482152,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 08:58:37","updated_at":"2021-11-12 08:58:37"}}
+ERROR - 2021-11-16 22:41:27 --> This is a token received:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaGVfY2xhaW0iLCJhdWQiOiJUaGVfQXVkIiwiaWF0IjoxNjM3MTIyMTUyLCJuYmYiOjE2MzcxMjIxNjIsImV4cCI6MTYzNzQ4MjE1MiwiZGF0YSI6eyJpZCI6IjEiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJ5JDEwJEJmZFhDdjA4dlhcL3doN1draDVSY28uMGpMNGJ0ZWNxaVFyYVBUd0dMSXp0bW1YLm5QaVZZSyIsInN0YXR1cyI6IkFjdGl2ZSIsImNyZWF0ZWRfYnkiOm51bGwsInVwZGF0ZWRfYnkiOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTExLTEyIDA4OjU4OjM3IiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTIgMDg6NTg6MzcifX0.gOqv-siyFSdbpHBPBaiBJLqhJm2_0DmnTmHTGTxGrJI
+INFO - 2021-11-16 23:22:04 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 23:22:04 --> empty response:{"CSP":{}}
+INFO - 2021-11-16 23:22:05 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 23:22:05 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 23:22:05 --> empty response:{"CSP":{}}
+INFO - 2021-11-16 23:22:05 --> empty response:{"CSP":{}}
+INFO - 2021-11-16 23:22:16 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-16 23:22:16 --> empty response:{"CSP":{}}

@@ -1,0 +1,251 @@
+INFO - 2021-11-25 23:47:23 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-25 23:47:23 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-25 23:47:23 --> Cannot handle token prior to 2021-11-25T23:47:32-0600
+#0 /home/tchandipg/public_html/earnatural.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'sdsa@ewfde$sada...', Array)
+#1 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/summary', 'before')
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-25 23:47:23 --> Cannot handle token prior to 2021-11-25T23:47:32-0600
+#0 /home/tchandipg/public_html/earnatural.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'sdsa@ewfde$sada...', Array)
+#1 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/promocodes', 'before')
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-25 23:49:39 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-25 23:49:39 --> Cannot handle token prior to 2021-11-25T23:49:48-0600
+#0 /home/tchandipg/public_html/earnatural.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'sdsa@ewfde$sada...', Array)
+#1 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/promocodes', 'before')
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-25 23:49:39 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-25 23:49:39 --> Cannot handle token prior to 2021-11-25T23:49:48-0600
+#0 /home/tchandipg/public_html/earnatural.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'sdsa@ewfde$sada...', Array)
+#1 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/summary', 'before')
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-11-25 23:50:02 --> Received request{"quantity":"1","unitPrice":"45.00","cardNumber":"5424000000000015","card_holder_name":"Naresh","cvv":"999","expiryDate":"09\/25","email":"kuriwaln@opallios.com","address_1":"Plot No 34,","address_2":"","city":"JAIPUR","state":"IL","zip":"30201","promocode":"null","product_name":"Ear Natural\u00ae ear drops","product_desc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shipping_charge":"4.95","shipping_address_1":"Plot No 34,","shipping_address_2":"","shipping_city":"JAIPUR","shipping_state":"IL","shipping_zip":"30201","optradio":"Same"}
+INFO - 2021-11-25 23:50:02 --> get_customer_info Received request{"card_holder_name":"Naresh","email":"kuriwaln@opallios.com","address_1":"Plot No 34,","address_2":"","city":"JAIPUR","state":"IL","zip":"30201","promocode":"null","shipping_address_1":"Plot No 34,","shipping_address_2":"","shipping_city":"JAIPUR","shipping_state":"IL","shipping_zip":"30201","created_at":"2021-11-25 23:50:02"}
+ERROR - 2021-11-25 23:50:02 --> get_post_request Received request{"quantity":"1","unitPrice":"45.00","cardNumber":"5424000000000015","card_holder_name":"Naresh","cvv":"999","expiryDate":"09\/25","email":"kuriwaln@opallios.com","address_1":"Plot No 34,","address_2":"","city":"JAIPUR","state":"IL","zip":"30201","promocode":"null","product_name":"Ear Natural\u00ae ear drops","product_desc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shipping_charge":"4.95","shipping_address_1":"Plot No 34,","shipping_address_2":"","shipping_city":"JAIPUR","shipping_state":"IL","shipping_zip":"30201","optradio":"Same"}
+INFO - 2021-11-25 23:50:02 --> promoCodeID ================:null
+INFO - 2021-11-25 23:50:02 --> Data ready for post: {"createTransactionRequest":{"merchantAuthentication":{"name":"27wqm4EW593X","transactionKey":"5G9xwgq4864TMs8F"},"refId":379,"transactionRequest":{"transactionType":"authCaptureTransaction","amount":"49.95","payment":{"creditCard":{"cardNumber":"5424000000000015","expirationDate":"2025-09","cardCode":"999"}},"lineItems":{"lineItem":[{"itemId":748430572,"name":"Ear Natural\u00ae ear drops","description":"Truly a miraculous OTC medicine for ear-infections, so common among children.","quantity":"1","unitPrice":"45.00"}]},"shipping":{"amount":"4.95","name":"S\/H Fee","description":"S\/H Fee"},"customer":{"id":379},"billTo":{"firstName":"Naresh","lastName":"","company":"","address":"Plot No 34, Plot No 34,","city":"JAIPUR","state":"IL","zip":"30201","country":""},"shipTo":{"firstName":"Naresh","lastName":"","company":"","address":"Plot No 34, ","city":"JAIPUR","state":"IL","zip":"30201","country":""},"customerIP":"106.206.173.176","userFields":{"userField":[{"name":"customer_id","value":379}]},"processingOptions":{"isSubsequentAuth":"true"},"subsequentAuthInformation":{"originalNetworkTransId":"123456789NNNH","originalAuthAmount":"49.95","reason":"resubmission"},"authorizationIndicatorType":{"authorizationIndicator":"final"}}}}
+INFO - 2021-11-25 23:50:02 --> Data ready for post to URL: https://apitest.authorize.net/xml/v1/request.api
+INFO - 2021-11-25 23:50:02 --> Response Message: {"transactionResponse":{"responseCode":"1","authCode":"YWYAL7","avsResultCode":"Y","cvvResultCode":"P","cavvResultCode":"2","transId":"60180623516","refTransID":"","transHash":"","testRequest":"0","accountNumber":"XXXX0015","accountType":"MasterCard","messages":[{"code":"1","description":"This transaction has been approved."}],"userFields":[{"name":"customer_id","value":"379"}],"transHashSha2":"","SupplementalDataQualificationIndicator":0,"networkTransId":"HVOKF6QGBKPYNA1QD9BRRNH"},"refId":"379","messages":{"resultCode":"Ok","message":[{"code":"I00001","text":"Successful."}]}} 
+INFO - 2021-11-25 23:50:03 --> Transaction success with code 1 and return the error:  This transaction has been approved. : 
+INFO - 2021-11-25 23:50:41 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-25 23:50:41 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637905778,"nbf":1637905788,"exp":1638265778,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 01:58:37","updated_at":"2021-11-12 01:58:37"}}
+INFO - 2021-11-25 23:50:41 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-25 23:50:41 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637905778,"nbf":1637905788,"exp":1638265778,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 01:58:37","updated_at":"2021-11-12 01:58:37"}}
+INFO - 2021-11-25 23:53:09 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-25 23:53:09 --> Wrong number of segments
+#0 /home/tchandipg/public_html/earnatural.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('undefined', 'sdsa@ewfde$sada...', Array)
+#1 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/summary', 'before')
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-25 23:53:09 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-25 23:53:09 --> Wrong number of segments
+#0 /home/tchandipg/public_html/earnatural.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('undefined', 'sdsa@ewfde$sada...', Array)
+#1 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/promocodes', 'before')
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-25 23:53:40 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-25 23:53:40 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637905778,"nbf":1637905788,"exp":1638265778,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 01:58:37","updated_at":"2021-11-12 01:58:37"}}
+INFO - 2021-11-25 23:53:41 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-25 23:53:41 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-25 23:53:41 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637905778,"nbf":1637905788,"exp":1638265778,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 01:58:37","updated_at":"2021-11-12 01:58:37"}}
+INFO - 2021-11-25 23:53:41 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637905778,"nbf":1637905788,"exp":1638265778,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 01:58:37","updated_at":"2021-11-12 01:58:37"}}
+INFO - 2021-11-25 23:53:42 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-25 23:53:42 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-25 23:53:42 --> Wrong number of segments
+#0 /home/tchandipg/public_html/earnatural.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('null', 'sdsa@ewfde$sada...', Array)
+#1 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/summary', 'before')
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-25 23:53:42 --> Wrong number of segments
+#0 /home/tchandipg/public_html/earnatural.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('null', 'sdsa@ewfde$sada...', Array)
+#1 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/promocodes', 'before')
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-25 23:53:59 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-25 23:53:59 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-25 23:53:59 --> Wrong number of segments
+#0 /home/tchandipg/public_html/earnatural.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('null', 'sdsa@ewfde$sada...', Array)
+#1 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/promocodes', 'before')
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-25 23:53:59 --> Wrong number of segments
+#0 /home/tchandipg/public_html/earnatural.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('null', 'sdsa@ewfde$sada...', Array)
+#1 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/summary', 'before')
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-25 23:54:03 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-25 23:54:03 --> Wrong number of segments
+#0 /home/tchandipg/public_html/earnatural.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('null', 'sdsa@ewfde$sada...', Array)
+#1 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/promocodes', 'before')
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-25 23:54:03 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-25 23:54:03 --> Wrong number of segments
+#0 /home/tchandipg/public_html/earnatural.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('null', 'sdsa@ewfde$sada...', Array)
+#1 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/summary', 'before')
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-25 23:54:06 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-25 23:54:06 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-25 23:54:06 --> Wrong number of segments
+#0 /home/tchandipg/public_html/earnatural.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('null', 'sdsa@ewfde$sada...', Array)
+#1 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/promocodes', 'before')
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-25 23:54:06 --> Wrong number of segments
+#0 /home/tchandipg/public_html/earnatural.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('null', 'sdsa@ewfde$sada...', Array)
+#1 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/summary', 'before')
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-25 23:54:06 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-25 23:54:06 --> Wrong number of segments
+#0 /home/tchandipg/public_html/earnatural.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('null', 'sdsa@ewfde$sada...', Array)
+#1 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/promocodes', 'before')
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-25 23:54:06 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-25 23:54:06 --> Wrong number of segments
+#0 /home/tchandipg/public_html/earnatural.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('null', 'sdsa@ewfde$sada...', Array)
+#1 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/summary', 'before')
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-25 23:54:48 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-25 23:54:48 --> Wrong number of segments
+#0 /home/tchandipg/public_html/earnatural.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('null', 'sdsa@ewfde$sada...', Array)
+#1 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/summary', 'before')
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-25 23:54:48 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-25 23:54:48 --> Wrong number of segments
+#0 /home/tchandipg/public_html/earnatural.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('null', 'sdsa@ewfde$sada...', Array)
+#1 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/promocodes', 'before')
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-25 23:55:49 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-25 23:55:49 --> Wrong number of segments
+#0 /home/tchandipg/public_html/earnatural.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('null', 'sdsa@ewfde$sada...', Array)
+#1 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/promocodes', 'before')
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-25 23:55:49 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-25 23:55:49 --> Wrong number of segments
+#0 /home/tchandipg/public_html/earnatural.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('null', 'sdsa@ewfde$sada...', Array)
+#1 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/summary', 'before')
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-25 23:56:36 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-25 23:56:36 --> Wrong number of segments
+#0 /home/tchandipg/public_html/earnatural.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('null', 'sdsa@ewfde$sada...', Array)
+#1 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/promocodes', 'before')
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-25 23:56:36 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-25 23:56:36 --> Wrong number of segments
+#0 /home/tchandipg/public_html/earnatural.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('null', 'sdsa@ewfde$sada...', Array)
+#1 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/summary', 'before')
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-25 23:56:45 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-25 23:56:45 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-25 23:56:45 --> Wrong number of segments
+#0 /home/tchandipg/public_html/earnatural.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('undefined', 'sdsa@ewfde$sada...', Array)
+#1 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/promocodes', 'before')
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-25 23:56:45 --> Wrong number of segments
+#0 /home/tchandipg/public_html/earnatural.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('undefined', 'sdsa@ewfde$sada...', Array)
+#1 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/summary', 'before')
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-11-25 23:56:53 --> Received request{"quantity":"10","unitPrice":"45.00","cardNumber":"5424000000000015","card_holder_name":"Vishnu Kumar ","cvv":"999","expiryDate":"02\/25","email":"vishnu0agrawal@gmail.com","address_1":" 2390 Crenshaw Blvd Suite #239","address_2":"","city":"Torrance","state":"CA","zip":"90501","promocode":"35","product_name":"Ear Natural\u00ae ear drops","product_desc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shipping_charge":"4.95","shipping_address_1":" 2390 Crenshaw Blvd Suite #239","shipping_address_2":"","shipping_city":"Torrance","shipping_state":"CA","shipping_zip":"90501","optradio":"Same"}
+INFO - 2021-11-25 23:56:53 --> get_customer_info Received request{"card_holder_name":"Vishnu Kumar ","email":"vishnu0agrawal@gmail.com","address_1":" 2390 Crenshaw Blvd Suite #239","address_2":"","city":"Torrance","state":"CA","zip":"90501","promocode":"35","shipping_address_1":" 2390 Crenshaw Blvd Suite #239","shipping_address_2":"","shipping_city":"Torrance","shipping_state":"CA","shipping_zip":"90501","created_at":"2021-11-25 23:56:53"}
+ERROR - 2021-11-25 23:56:53 --> get_post_request Received request{"quantity":"10","unitPrice":"45.00","cardNumber":"5424000000000015","card_holder_name":"Vishnu Kumar ","cvv":"999","expiryDate":"02\/25","email":"vishnu0agrawal@gmail.com","address_1":" 2390 Crenshaw Blvd Suite #239","address_2":"","city":"Torrance","state":"CA","zip":"90501","promocode":"35","product_name":"Ear Natural\u00ae ear drops","product_desc":"Truly a miraculous OTC medicine for ear-infections, so common among children.","shipping_charge":"4.95","shipping_address_1":" 2390 Crenshaw Blvd Suite #239","shipping_address_2":"","shipping_city":"Torrance","shipping_state":"CA","shipping_zip":"90501","optradio":"Same"}
+INFO - 2021-11-25 23:56:53 --> promoCodeID ================:35
+INFO - 2021-11-25 23:56:53 --> promoCode ================:{"id":"35","product_name":"EarNatural","promocode_title":"New Year50","promocode":"newyear50","promocode_discount":"50","promocode_type":"Percentage","status":"Active","start_date":"2021-11-26","expire_date":"2021-12-31","created_by":"1","updated_by":"1","created_at":null,"updated_at":null}
+INFO - 2021-11-25 23:56:53 --> promoCode promocode_type ================:"Percentage"
+INFO - 2021-11-25 23:56:53 --> promoCode promocode_discount ================:"50"
+INFO - 2021-11-25 23:56:53 --> Data ready for post: {"createTransactionRequest":{"merchantAuthentication":{"name":"27wqm4EW593X","transactionKey":"5G9xwgq4864TMs8F"},"refId":380,"transactionRequest":{"transactionType":"authCaptureTransaction","amount":"229.95","payment":{"creditCard":{"cardNumber":"5424000000000015","expirationDate":"2025-02","cardCode":"999"}},"lineItems":{"lineItem":[{"itemId":501918910,"name":"Ear Natural\u00ae ear drops","description":"Truly a miraculous OTC medicine for ear-infections, so common among children.","quantity":"10","unitPrice":"45.00"}]},"shipping":{"amount":"4.95","name":"S\/H Fee","description":"S\/H Fee"},"customer":{"id":380},"billTo":{"firstName":"Vishnu Kumar ","lastName":"","company":"","address":" 2390 Crenshaw Blvd Suite #239  2390 Crenshaw Blvd Suite #239","city":"Torrance","state":"CA","zip":"90501","country":""},"shipTo":{"firstName":"Vishnu Kumar ","lastName":"","company":"","address":" 2390 Crenshaw Blvd Suite #239 ","city":"Torrance","state":"CA","zip":"90501","country":""},"customerIP":"203.81.241.44","userFields":{"userField":[{"name":"customer_id","value":380}]},"processingOptions":{"isSubsequentAuth":"true"},"subsequentAuthInformation":{"originalNetworkTransId":"123456789NNNH","originalAuthAmount":"229.95","reason":"resubmission"},"authorizationIndicatorType":{"authorizationIndicator":"final"}}}}
+INFO - 2021-11-25 23:56:53 --> Data ready for post to URL: https://apitest.authorize.net/xml/v1/request.api
+INFO - 2021-11-25 23:56:53 --> Response Message: {"messages":{"resultCode":"Error","message":[{"code":"E00003","text":"The 'AnetApi\/xml\/v1\/schema\/AnetApiSchema.xsd:address' element is invalid - The value XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX is invalid according to its datatype 'String' - The actual length is greater than the MaxLength value."}]}} 
+INFO - 2021-11-25 23:56:53 --> Transaction failed with code E00003 and return the error:  The 'AnetApi/xml/v1/schema/AnetApiSchema.xsd:address' element is invalid - The value XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX is invalid according to its datatype 'String' - The actual length is greater than the MaxLength value. 
+INFO - 2021-11-25 23:56:55 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-25 23:56:55 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+CRITICAL - 2021-11-25 23:56:55 --> Wrong number of segments
+#0 /home/tchandipg/public_html/earnatural.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('undefined', 'sdsa@ewfde$sada...', Array)
+#1 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/summary', 'before')
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-25 23:56:55 --> Wrong number of segments
+#0 /home/tchandipg/public_html/earnatural.com/app/Filters/Auth.php(52): Firebase\JWT\JWT::decode('undefined', 'sdsa@ewfde$sada...', Array)
+#1 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/promocodes', 'before')
+#3 /home/tchandipg/public_html/earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-25 23:58:08 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-25 23:58:08 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-25 23:58:08 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-25 23:58:08 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637905778,"nbf":1637905788,"exp":1638265778,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 01:58:37","updated_at":"2021-11-12 01:58:37"}}
+INFO - 2021-11-25 23:58:08 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637905778,"nbf":1637905788,"exp":1638265778,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 01:58:37","updated_at":"2021-11-12 01:58:37"}}
+INFO - 2021-11-25 23:58:08 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637905778,"nbf":1637905788,"exp":1638265778,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 01:58:37","updated_at":"2021-11-12 01:58:37"}}
+INFO - 2021-11-25 23:58:09 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-25 23:58:09 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-25 23:58:09 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637905778,"nbf":1637905788,"exp":1638265778,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 01:58:37","updated_at":"2021-11-12 01:58:37"}}
+INFO - 2021-11-25 23:58:09 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637905778,"nbf":1637905788,"exp":1638265778,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 01:58:37","updated_at":"2021-11-12 01:58:37"}}
+INFO - 2021-11-25 23:59:46 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-25 23:59:46 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637905778,"nbf":1637905788,"exp":1638265778,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 01:58:37","updated_at":"2021-11-12 01:58:37"}}
+INFO - 2021-11-25 23:59:46 --> This is error message logged by Online Web Tutorsdsa@ewfde$sadasdasdas!1231243432
+INFO - 2021-11-25 23:59:46 --> decoded:{"iss":"The_claim","aud":"The_Aud","iat":1637905778,"nbf":1637905788,"exp":1638265778,"data":{"id":"1","name":"admin","email":"admin@gmail.com","password":"$2y$10$BfdXCv08vX\/wh7Wkh5Rco.0jL4btecqiQraPTwGLIztmmX.nPiVYK","status":"Active","created_by":null,"updated_by":null,"created_at":"2021-11-12 01:58:37","updated_at":"2021-11-12 01:58:37"}}

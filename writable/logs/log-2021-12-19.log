@@ -1,0 +1,66 @@
+INFO - 2021-12-19 23:16:43 --> Data ready for post to URL: https://www.earnatural.com/api
+INFO - 2021-12-19 23:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-19 23:16:45 --> Trying to get property 'token' of non-object
+#0 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Home.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/tchandipg...', 91, Array)
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->login()
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-12-19 23:16:57 --> Data ready for post to URL: https://www.earnatural.com/api
+INFO - 2021-12-19 23:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-19 23:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-19 23:16:58 --> Data ready for post to URL: https://www.earnatural.com/api
+INFO - 2021-12-19 23:16:58 --> Data ready for post to URL: https://www.earnatural.com/api
+INFO - 2021-12-19 23:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-19 23:20:14 --> Data ready for post to URL: https://www.earnatural.com/api
+INFO - 2021-12-19 23:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-19 23:20:15 --> Data ready for post to URL: https://www.earnatural.com/api
+INFO - 2021-12-19 23:20:15 --> Data ready for post to URL: https://www.earnatural.com/api
+INFO - 2021-12-19 23:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-19 23:20:37 --> Data ready for post to URL: https://www.earnatural.com/api
+INFO - 2021-12-19 23:20:37 --> Data ready for post to URL: https://www.earnatural.com/api
+CRITICAL - 2021-12-19 23:26:07 --> Undefined variable: orderData
+#0 /home/tchandipg/public_html/staging.earnatural.com/app/Views/templates/admin.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/tchandipg...', 51, Array)
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/tchandipg...')
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('templates/admin', Array, true)
+#4 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Home.php(15): view('templates/admin')
+#5 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->admin()
+#6 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 23:27:08 --> Undefined index: transId
+#0 /home/tchandipg/public_html/staging.earnatural.com/app/Views/templates/admin.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/tchandipg...', 51, Array)
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/tchandipg...')
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('templates/admin', Array, true)
+#4 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Home.php(20): view('templates/admin', Array)
+#5 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->admin()
+#6 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 23:27:10 --> Undefined index: transId
+#0 /home/tchandipg/public_html/staging.earnatural.com/app/Views/templates/admin.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/tchandipg...', 51, Array)
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/tchandipg...')
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('templates/admin', Array, true)
+#4 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Home.php(20): view('templates/admin', Array)
+#5 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->admin()
+#6 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 23:28:05 --> Undefined index: transId
+#0 /home/tchandipg/public_html/staging.earnatural.com/app/Views/templates/admin.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/tchandipg...', 51, Array)
+#1 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/tchandipg...')
+#2 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('templates/admin', Array, true)
+#4 /home/tchandipg/public_html/staging.earnatural.com/app/Controllers/Home.php(20): view('templates/admin', Array)
+#5 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->admin()
+#6 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/tchandipg/public_html/staging.earnatural.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/tchandipg/public_html/staging.earnatural.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
