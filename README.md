@@ -23,30 +23,27 @@ When updating, check the release notes to see if there are any changes you might
 to your `app` folder. The affected files can be copied or merged from
 `vendor/codeigniter4/framework/app`.
 
-## Setup
+## Getting Started
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
+1. Clone the repository:
 
-## Important Change with index.php
+   `git clone https://github.com/CresitaTech/earnatural-core.git`
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+2. Navigate to project folder:
 
-**Please** read the user guide for a better explanation of how CI4 works!
+   `cd earnatural-core`
+   
 
-## Repository Management
+3. Start the development server:
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+   Navigate to `index.html` file in root folder and press `Alt+L Alt+O` to start the live server.
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+
+4. Navigate to dev site:
+
+   Navigate to `http://127.0.0.1:5500/index.html`. The app/page has to be reload if you change any of the source files.
+   
 
 ## Server Requirements
 
